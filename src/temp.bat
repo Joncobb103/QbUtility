@@ -1,0 +1,1 @@
+java -jar ccCreator.jar  "newccpath=C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\parknew_XML.xml" "split_key=/SPLIT/" "county=park" "block="  "lot=" "qual=" "validLine=En[A-z]+[^0-9A-z]+R[0-9]+.+[0-9]+[.][0-9]{2}" "cert=" "parcel=R[0-9]+" "lien_year=" "tax_year=" "total=[0-9]+[.][0-9]{2}" "multiline=0"

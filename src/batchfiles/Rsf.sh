@@ -1,0 +1,1 @@
+java -jar RemoveSpaceFromFile.jar "%1"

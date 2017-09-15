@@ -1,0 +1,74 @@
+<com.fig.classes.CountyClass>
+  <charReplacer class="java.util.Arrays$ArrayList">
+    <a class="string-array-array">
+      <string-array>
+        <string>$</string>
+        <string></string>
+      </string-array>
+      <string-array>
+        <string>,</string>
+        <string></string>
+      </string-array>
+      <string-array>
+        <string>—</string>
+        <string>-</string>
+      </string-array>
+    </a>
+  </charReplacer>
+  <countyName>santarosa</countyName>
+  <regexMap>
+    <entry>
+      <string>validLine</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>[0-9]+[^A-Za-z0-9]+[0-9]+</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>parcel</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string></string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>total</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string></string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>lien year</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string></string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>tax year</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string></string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>cert</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string></string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+  </regexMap>
+  <multiline>0</multiline>
+  <docTotalKey></docTotalKey>
+  <double__valid__line>false</double__valid__line>
+  <rotation>0</rotation>
+  <imagemagick></imagemagick>
+</com.fig.classes.CountyClass>

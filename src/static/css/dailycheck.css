@@ -1,0 +1,654 @@
+html{
+	width:1500px;
+}
+.activetab{
+	background-color: whitesmoke;
+}
+.tabclick:hover{
+	background-color: whitesmoke;
+}
+.dataframetoday{
+	box-shadow: 5px 5px 5px silver;
+	background-color: DeepSkyBlue;
+	border-collapse: collapse;
+}
+.dataframetoday tr:nth-child(even){
+	background-color: #dddddd;
+}
+.dataframetoday tr:nth-child(odd){
+	background-color:white;
+}
+.dataframetoday th{
+	background-color:DeepSkyBlue;
+	color:white;
+	border-right:1px solid white;
+	text-align:center;
+	padding-right: 5px;
+	font-size:large;
+}
+.dataframe th,.dataframe2 th{
+	background-color:DeepSkyBlue;
+	border: 1px solid black;
+	text-align:center;
+}
+.dataframetoday td,th{
+	padding-right: 2.5px;
+	padding-left: 2.5px;
+	width:1cm;
+	text-align:center;
+}
+.gethelp{
+	position: absolute;
+	right:1cm;
+	top: 6cm;
+}
+.gethelp2{
+	position: absolute;
+	right:1cm;
+	top: 5cm;
+}
+.helpme{
+	display:none;
+	position: fixed;
+	top:30%;
+	right: 25%;
+	background-color: white;
+	border:6px ridge DeepSkyBlue;
+	height:15cm;
+	padding:1cm;
+	width:40cm;
+	font-size:x-large;
+	z-index: 9999;
+	overflow: auto;
+}
+.helpme li{
+	list-style-type: lower-roman;
+}
+.dataframe{
+	box-shadow: 5px 5px 5px silver;
+	background-color: DeepSkyBlue;
+	border-collapse: collapse;
+}
+.dataframe tr:nth-child(even){
+	background-color: #dddddd;
+}
+.dataframe tr:nth-child(odd){
+	background-color:white;
+}
+
+.dataframe th,.dataframe2 th{
+	background-color:DeepSkyBlue;
+	border: 1px solid black;
+	text-align:center;
+}
+.dataframe td,th{
+	padding: 2px;
+}
+.ocrclass{
+	font-size: large;
+}
+.deppidform table{
+	font-size: large;
+}
+.thead{
+	background-color:black;
+	color:white;
+	font-size:110%;
+	text-shadow:1px 1px black;
+}
+.dataframe2{
+	box-shadow: 5px 5px 5px silver;
+	background-color: DeepSkyBlue;
+	border: 2px ridge black;
+}
+.dataframe2 td:nth-child(1){
+	color:white;
+	text-shadow: 1px 1px 1px black;
+	padding-left: 5px;
+	font-size: x-large;
+}
+.dataframe2 input[type=submit]{
+	background-color:black;
+	color:white;
+	border: 1px solid transparent;
+	float:right;
+}
+.dataframe tbody td:hover{
+	background-color: whitesmoke;
+	font-size: 120%;
+}
+.dataframe td,.dataframe2 td{
+	border: 1px solid black;
+}
+
+.fig{
+	color: silver;
+	font-size: 50px;
+	text-outline: 10px 10px grey;
+}
+#issues{
+	width:50%;
+}
+.today{
+	padding-left:5%;
+}
+.subfig{
+	color: silver;
+	letter-spacing:5px;
+	font-size: 25px;
+	text-outline: 10px grey;
+}
+.wordtag{
+	padding-bottom:0;
+	display:block;
+	float:left;
+	text-shadow:1px 1px DeepSkyBlue;
+}
+.figwrap{
+	display:inline-block;
+}
+.figwrap img{
+	float:left;
+	height: 20%;
+	width:20%;
+}
+.pickparse{
+	font-size: large;
+}
+.helptab{
+	padding-left:1%;
+	position: relative;
+	display:inline-block;
+	width:100%;
+}
+.captionsfortab{
+	font-size: x-large;
+}
+#fordoc{
+	font-size: medium;
+}
+#forval{
+	font-size: medium;
+}
+#ctftype{
+	font-size: large;
+}
+#regtype{
+	font-size: large;
+}
+.head{
+	width: 35%;
+	padding: 2px;
+	text-shadow: 1px 1px DeepSkyBlue;
+}
+.head h1{
+	padding-left: 10px;
+}
+.pid{
+}
+.diff h3{
+	width:10cm;
+}
+.diff{
+	position: absolute;
+	top:0;
+	right:4cm;
+	float: right;
+}
+.qbdf{
+	position:absolute;
+	top:0;
+	right:21cm;
+}
+.qbdf h3{
+	width:10cm;
+}
+.pidrec{
+	padding-top: 6cm;
+}
+.clerk tbody tr:hover{
+	font-size:100%;
+}
+.clerk{
+	position: absolute;
+	top:0;
+	right:-4cm;
+	width:38%;
+	float: right;
+}
+.clerk table {
+	background-color:transparent;
+	border:1px solid transparent;
+	box-shadow:1px 1px 1px transparent;
+}
+.clerk tr:nth-child(even),.clerk tr:nth-child(odd){
+	background-color:white;
+}
+.clerk th{
+	display:none;
+}
+.clerk h3{
+	text-shadow:1px 1px DeepSkyBlue;
+	text-decoration:blink;
+	text-decoration:  
+}
+.clerk td{
+	border:1px solid transparent;
+}
+.stout2{
+	width: 225px;
+	position:absolute;
+	text-align: center;
+	top: 12px;
+	right: 10cm;
+	background-color: DeepSkyBlue;
+	border: 1px solid silver;
+	box-shadow: 1px 1px 1px silver;
+	padding-left: 2px;
+	padding-right:2px;
+	padding-bottom:2px;
+}
+.stout2 th{
+	border: 1px solid black;
+	background-color: black;
+	color:white;
+	text-shadow:1px 1px DeepSkyBlue;
+}
+.stout{
+	width: 225px;
+	position:absolute;
+	text-align: center;
+	top: 12px;
+	right: 8cm;
+	background-color: DeepSkyBlue;
+	border: 1px solid silver;
+	box-shadow: 1px 1px 1px silver;
+	padding-left: 2px;
+	padding-right:2px;
+	padding-bottom:2px;
+}
+.stout th{
+	border: 1px solid black;
+	background-color: black;
+	color:white;
+	text-shadow:1px 1px DeepSkyBlue;
+}
+.stlist a:hover{
+	background-color:whitesmoke;
+	font-size: 120%;
+	font-style:italic;
+}
+.stlist a{
+	text-decoration: none;
+	color: black;
+}
+.stlist td{
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:2px;
+}
+hr{
+	border-color: DeepSkyBlue;
+}
+.header1 img{
+	padding-left:15px;
+	height:63px;
+	border-radius: 70%;
+}
+.header li font{
+	font-size:xx-large;
+}
+.header1{
+	width:100vw;
+	list-style-type:none;
+	background-color:black;
+	margin-top: -9px;
+    margin: -7px;
+    padding: 0px;
+    overflow: hidden;
+	box-shadow: 2px 2px 2px silver;
+	border-top: 3px ridge silver;
+	border-bottom: 6px solid silver;
+	text-align:center;
+}
+.drop li{
+	padding-top:20px;
+	display:inline-block;
+}
+.drop-cont{
+	display:none;
+}
+.drop-cont a{
+	display:block;
+    padding: 24px 22px;
+    z-index: 1;
+}
+.header1 a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:large;
+}
+
+.header1 li a:hover, .drop:hover .dropbtn {
+    background-color: red;
+}
+
+.drop-cont {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop-cont a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-cont {
+    display: block;
+}
+
+#state{
+	padding:4px;
+}
+.header1 li{
+	float:right;
+	margin: 0;
+}
+.header1 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 22px;
+	background-color: DeepSkyBlue;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+    text-decoration: none;
+}
+.header1 li a:hover{
+	background-color:red;
+}
+.header1 h1{
+	color:white;
+	padding-left:1cm;
+	font-style:italic;
+	font-size:150%;
+	text-shadow:1px 1px DeepSkyBlue;
+	padding-right: 15px;
+}
+.header{
+	width:125%;margin-left:-8px;
+	background-color:black;
+	box-shadow: 2px 2px 2px silver;
+	border-top: 9px ridge silver;
+	border-bottom: 1px solid silver;
+}
+.header h1{
+	color:white;
+	padding-left:1cm;
+	font-style:italic;
+	font-size:150%;
+	text-shadow:1px 1px DeepSkyBlue;
+}
+.searchid{
+	background-color: transparent;
+	width:225px;
+	position: relative;
+	right:0;
+	padding-left:30px;
+}
+.searchid th{
+	color: white;
+	text-shadow:1px 1px 1px DeepSkyBlue;
+}
+.searchid td{
+	padding:4px;
+}
+.searchid input[type=search]{
+ 	width:100%;
+ 	border-radius: 80px;
+ 	padding: 5px;
+ 	border: 1px solid grey;
+ 	
+}
+.searchid input[type=search]:active{
+ 	width:100%;
+ 	border-radius: 80px;
+ 	padding: 5px;
+ 	border: 1px solid blue;
+ 	
+}
+.searchid input[type=search]:hover{
+ 	width:100%;
+ 	border-radius: 80px;
+ 	padding: 5px;
+ 	border: 1px solid blue;
+ 	
+}
+.stout a{
+	text-decoration: none;
+}
+.stlist{
+	margin:auto;
+	text-align:left;
+	border: 1px solid black;
+	background-color: white;
+}
+.main{
+	padding-top:0;
+	opacity: 0.9;
+	width:2100px;
+}
+.county{
+	list-style: none;
+	width:200vh;
+}
+.count{
+	color:black;
+	background-color: highlight;
+	border-radius:100%;
+	padding:4px;
+	box-shadow:3px 3px 3px silver;
+	opacity: 0.7;
+}
+.mainlist{
+	padding-top:1%;
+	padding-right:1%;
+	float:left;
+}
+.mainlist a{
+	text-decoration:none;
+}
+.maincounty{
+	font-size:90%;
+	text-shadow:1px 1px DeepSkyBlue;
+	color:black;
+	}
+ .sublist{
+	display: none;
+}
+.sublist a{
+	text-decoration:none;
+	font-size:95%;
+	color:black;
+	font-weight:bold
+	z-index: 99;
+}
+.mainlist:hover .sublist{
+	display:block;
+	list-style:none;
+} 
+/* depCheck.html*/
+.pdf{
+	height: 20cm;
+	width:100vh;
+	border: 1px solid transparent;
+	box-shadow: 2px 2px 2px  silver;
+	border:1px solid white;
+	color:black;
+}
+mark{
+	background-color: DeepSkyBlue;
+}
+#lineval{
+	max-height:100%;
+	max-width:100%;
+	overflow:auto;
+    word-wrap: normal;
+    white-space: pre-wrap;
+}
+.rocrv, #lineval{
+	font-size: medium;
+	font-family: monospace;
+}
+.head2{
+	background-color: DeepSkyBlue;
+	width: 40%;
+	padding: 2px;
+	border: 2px solid grey;
+	box-shadow: 1px 1px 1px silver;
+}
+.wrapthis{
+	position:relative;
+	display:inline-block;
+	width:150vh;
+}
+.ocr{
+	position:absolute;
+	top:0;
+	right:-3cm;;
+	width:38%;
+	float:right;
+	border: 1px solid transparent;
+	display:inline-block;
+}
+.upocr{
+	padding: 6px;
+	border-radius:80px;
+	background-color: DeepSkyBlue;
+	color:white;
+	font-weight:bold;
+}
+.upocr2{
+	background-color: DeepSkyBlue;
+	color:white;
+	font-weight:bold;
+}
+.rocrv{
+	height:20cm;
+	width:90vh;
+	border:1px solid white;
+}
+/*reports form */
+.rephead{
+	font-size:x-large;
+	padding: 2px;
+	text-shadow: 1px 1px DeepSkyBlue;
+}
+.rephead1{
+	font-size:xx-large;
+	padding: 2px;
+	text-shadow: 1px 1px DeepSkyBlue;
+	border-bottom: 3px ridge black;
+}
+/* .report{
+	border: 3px solid DeepSkyBlue;
+} */
+.report tr{
+	width: 100%;
+	height: 1.5cm;
+}
+.report tr:hover{
+	background-color: whitesmoke;
+	padding-left:3px;
+	padding-right:3px;
+}
+.report td{
+	height: 1.5cm;
+	border-top: 1px solid silver;
+	border-collapse: collapse;
+	text-align:center;
+}
+.report th{
+	border-top: 1px solid silver;
+	background-color: black;
+	color:white;
+	text-shadow:1px 1px DeepSkyBlue;
+	text-align:center;
+}
+
+.report{
+	display: inline-block;
+	max-height: 16cm;
+	overflow-y: auto; 
+}
+#message_int{
+	font-size:150%;
+	padding: 2px;
+}
+.report2{
+	border: 3px solid DeepSkyBlue;
+	background: black;
+}
+.report2 tr{
+	width: 100%;
+	background:white;
+	height: 1.5cm;
+}
+.report2 tr:hover{
+	background-color: whitesmoke;
+	padding-left:3px;
+	padding-right:3px;
+}
+.report2 td{
+	height: 1.5cm;
+	border-top: 1px solid silver;
+	border-collapse: collapse;
+	text-align:center;
+}
+.report2 th{
+	border-top: 1px solid silver;
+	background-color: DeepSkyBlue;
+	color: black;
+	text-align:center;
+}
+
+.report2{
+	display: inline-block;
+	max-height: 8cm;
+	overflow-y: auto; 
+	border: 1px solid black;
+}
+.dvp tr{
+	width: 5cm;
+	background:white;
+	height: 1.5cm;
+}
+.dvp tr:hover{
+	background-color: whitesmoke;
+	padding-left:3px;
+	padding-right:3px;
+}
+.dvp td{
+	height: 1.5cm;
+	text-align:center;
+	font-size: large;
+}
+.dvp th{
+	color: black;
+	font-size:large;
+	text-shadow: 1px 1px 1px DeepSkyBlue;
+	text-align:center;
+	font-size: large;
+}

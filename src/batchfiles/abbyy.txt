@@ -1,0 +1,1 @@
+208.68.37.79:5700/process_ocr_text?deposit_id_where_clause=where state in ('(REPLACE STATE)') and deposit_date='(REPLACE DATE)'

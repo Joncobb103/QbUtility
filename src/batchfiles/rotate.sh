@@ -1,0 +1,1 @@
+java -jar RotatePdf.jar "%1" "%2"

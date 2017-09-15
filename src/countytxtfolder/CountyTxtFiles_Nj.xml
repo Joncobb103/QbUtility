@@ -1,0 +1,573 @@
+<com.fig.classes.CountyTxtFiles>
+  <a>
+    <entry>
+      <string>wildwood (cape may, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\wildwood (cape may, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>eatontown borough (eatontown, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\eatontown borough (eatontown, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>west orange (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\west orange (essex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hackensack (bergen, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hackensack (bergen, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hampton (hunterdon, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hampton (hunterdon, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>woodbridge (middlesex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\woodbridge (middlesex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>mantua (gloucester, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\mantua (gloucester, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>deptford (gloucester, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\deptford (gloucester, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>atlantic city (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\atlantic city (atlantic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>elizabeth (union, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\elizabeth (union, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>irvington (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\irvington (essex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>absecon (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\absecon (atlantic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>evesham (burlington, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\evesham (burlington, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>matawan (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\matawan (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>trenton (mercer, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\trenton (mercer, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>long branch (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\long branch (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>carneys point (salem, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\carneys point (salem, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>carteret (middlesex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\carteret (middlesex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>teaneck (bergen, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\teaneck (bergen, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>jackson (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\jackson (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>passaic (passaic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\passaic (passaic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>east brunswick (middlesex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\east brunswick (middlesex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>burlington (burlington, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\burlington (burlington, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>piscataway (middlesex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\piscataway (middlesex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hopatcong (sussex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hopatcong (sussex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>marlboro (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\marlboro (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>lindenwold (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\lindenwold (camden, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>camden city (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\camden city (camden, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>ocean (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\ocean (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>clifton (passaic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\clifton (passaic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>pequannock (morris, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\pequannock (morris, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>willingboro (burlington, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\willingboro (burlington, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>galloway (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\galloway (atlantic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>north plainfield (somerset, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\north plainfield (somerset, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>egg harbor (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\egg harbor (atlantic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>maplewood (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\maplewood (essex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>ocean (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\ocean (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>lacey (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\lacey (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>union city (hudson, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\union city (hudson, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>vineland (cumberland, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\vineland (cumberland, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>toms river (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\toms river (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>washington (gloucester, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\washington (gloucester, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>asbury park (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\asbury park (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>tuckerton (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\tuckerton (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>penns grove (salem, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\penns grove (salem, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>millville (cumberland, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\millville (cumberland, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hillsborough (somerset, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hillsborough (somerset, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>pleasantville (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\pleasantville (atlantic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>neptune township (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\neptune township (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>highlands (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\highlands (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>rockaway township (morris, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\rockaway township (morris, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>newark (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\newark (essex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hamilton (mercer, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hamilton (mercer, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hillside (union, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hillside (union, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>keansburg (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\keansburg (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>point pleasant (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\point pleasant (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>gloucester township (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\gloucester township (camden, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>medford (burlington, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\medford (burlington, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>paulsboro (gloucester, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\paulsboro (gloucester, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>lakewood (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\lakewood (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>linden (union, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\linden (union, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>east orange (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\east orange (essex, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>hazlet (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\hazlet (monmouth, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>barnegat (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\barnegat (ocean, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>middle township (cape may, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\middle township (cape may, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>oxford (warren, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\oxford (warren, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>bridgeton (cumberland, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\bridgeton (cumberland, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>winslow (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\winslow (camden, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>paterson (passaic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\paterson (passaic, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>linden (union, nj)2</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\linden (union, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>salem city (salem, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\salem city (salem, nj)new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+  </a>
+  <txt/>
+</com.fig.classes.CountyTxtFiles>

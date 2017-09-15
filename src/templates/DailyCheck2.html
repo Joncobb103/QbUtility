@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/dailycheck.css') }}" >
+<link rel="shortcut icon" href="{{ url_for('static', filename = 'images/fig-logo.jpg') }}" />
+	<head>
+	<title>Jonathan's daily Check</title>
+	</head>
+	<body>	
+	<ul class="header1">
+		<li style="float:left;">
+	<img src="{{ url_for('static', filename = 'images/FinchIcon_Reversed_Red.jpg') }}"></li>
+	<li style="float:left;"><h1>Daily Redemptions</h1></li>
+	<li style="float:left;" class="drop">
+		<a href = "{{ url_for('dailyCheck',state = None) }}">Home</a>
+		<div class="drop-cont">
+		{% for state in stateslist %}
+		<a href = "{{ url_for('dailyCheck',state = state) }}">{{ state }}</a>
+		{% endfor %}
+		</div></li>
+	<li><form method="post" action="/searchdep" class="searchid">
+	<table><tr><th>Search Deposit</th></tr>
+	<tr><td><input type="search" name ="depid" placeholder="Enter deposit id...."></td>
+	</tr></table></form></li>
+	<li><a href = "{{ url_for('reports', state = None) }}">Reports</a></li>
+		<li class="drop"><form action="/autoRedeem" method="post" id="redform">
+		<input type="hidden" name="state" id="hidstatered">
+		<a onclick="document.getElementById('redform').submit()">Redeem</a>
+		<div class="drop-cont">
+		{% for state in stateslist %}
+		<a onclick="pickstate('redform','{{ state }}','hidstatered')">Redeem {{ state }}</a>
+		{% endfor %}
+		</div>
+		</form></li>
+		<li class="drop">
+		<form action="/runAbbyy" method="post" id="runabbby">
+		<input type="hidden" name="ablink" value="{{ abbyy }}"></form>
+		<form action="/runAbbyy_sp" method="post" id="runabform">
+		<input type="hidden" name="state" id="hidstateab">
+		<a onclick="document.getElementById('runabbby').submit()">Run abbby</a>
+		<div class="drop-cont">
+		{% for state in stateslist %}
+		<a onclick="pickstate('runabform','{{ state }}','hidstateab')">Run abbby for {{ state }}</a>
+		{% endfor %}
+		</div>
+		</form></li>
+		<li class="drop"><form action="/createPid" method="post" id="pidform">
+		<input type="hidden" name="state" id="hidstatecp">
+		<a class="droptn" onclick="document.getElementById('pidform').submit()">Generate Pids</a>
+		<div class="drop-cont">
+		{% for state in stateslist %}
+		<a onclick="pickstate('pidform','{{ state }}','hidstatecp')">Generate Pids for {{ state }}</a>
+		{% endfor %}
+		</div>
+		</form></li>
+	</ul>
+	<ul class = "county">
+	{% for county in countylist.keys() %}
+		<li class = "mainlist"><a class="maincounty" href="{{ url_for('dailyCheckCounty', county=county) }}" target="_self">{{county}} <font class="count">{{countylist.get(county)|length}}</font></a>
+			<ul class = "sublist">
+			{% for id in countylist.get(county) %}
+				<li><a href = "{{ url_for('depView',depid = id ) }}" target="_self">{{ id }}</a></li>
+			{% endfor %}
+			</ul>
+		</li>
+	{% endfor %}
+	</ul>
+	<br><br><br>
+	{% if contact is not none %}
+	<br><br><br>
+	<h2 class="head">County contact info</h2>
+	{% block contactinfo %}
+	{{ contact | safe }}
+	{% endblock %}
+	{% endif %}		
+		
+	{% if redsite is not none %}
+	<br><br><br>
+	<table class="dataframe">
+	<tbody>
+	<tr><th colspan="2">Redemption site information</th></tr>
+	{% for key in redsite.keys() %}
+	<tr>
+	{% if key == 'url' %}
+	<th>{{ key }}</th><td><a href="{{ redsite.get(key) }}" target="_blank">{{ redsite.get(key) }}</a><td>
+	{% else %}
+	<th>{{ key }}</th><td>{{ redsite.get(key) }}<td>
+	{% endif %}
+   </tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	{% endif %}
+	<br><br><br>
+	<div class="today">
+	{% if datecheck %}
+	<h2 class="head">To Do List</h2>
+	{% else %}
+	<h2 class="head">To Do List for yesterday</h2>
+	{% endif %}
+	<hr>
+	{% if todolist.get('deposit_amount')|length > 0 %}	
+	<p style="font-size: large;">List of Deposits needed to be applied. <font color="red">(*Red items identify an error)</font></p>
+	<table class="dataframetoday">
+	<thead>
+	<tr>
+   {% for result in todolist.keys() %}
+		{% if result == 'record_id_path' %}
+		{% elif result == 'record_id' %}
+		<th>quickbase_{{ result }}</th>
+		{% elif result == 'syscountyname' %}
+		{% elif result == 'Deposit amount - invoiced amount' %}
+		{% elif result == 'old_fig_deposits_record_id' %}
+		<th>Deposits_page</th>
+		{% elif result == 'count_parcels_in_deposit' %}
+		<th>Quickbase_status</th>
+		{% else %}
+		<th>{{ result }}</th>
+		{% endif %}
+	{% endfor %}
+	<th>Deposit amount - invoiced amount</th>
+	</tr>
+	</thead>
+	<tbody>
+	{% for row in range(todolist.get('old_fig_deposits_record_id')|length) %}
+	<tr>
+		{% for key in todolist.keys() %}
+			{% if key == 'record_id' %}
+				<td><a href="{{ todolist.get('record_id_path')[row] }}" target="_blank">{{ todolist.get(key)[row] }}</a></td>
+			{% elif key == 'record_id_path' %}
+			{% elif key == 'syscountyname' %}
+			{% elif key == 'Deposit amount - invoiced amount' %}
+			{% elif key == 'count_parcels_in_deposit' %}
+			{% if todolist.get(key)[row] == '0' %}
+			<td>Not redeemed yet</td>
+			{% else %}
+			<td><font color="red">rejected</font></td>
+			{% endif %}
+			{% elif key == 'old_fig_deposits_record_id' %}
+			<td><a href="{{ url_for('depView', depid = todolist.get('old_fig_deposits_record_id')[row]) }}">Go to Deposits page</a></td>
+			{% else %}
+				{% if todolist.get('Deposit amount - invoiced amount')[row] == 0.00 or todolist.get('Deposit amount - invoiced amount')[row] == None %}
+				<td>{{ todolist.get(key)[row] }}</td>
+				{% else %}
+				<td><font color="red">{{ todolist.get(key)[row] }}</font></td>	
+				{% endif %}
+			{% endif %}	
+		{% endfor %}
+		<td>{{ todolist.get('Deposit amount - invoiced amount')[row] }}</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	{% else %}
+	<p>Pids are Done</p>
+	{% endif%}
+		</div><br><br>
+		{% if issues | length > 0 %}
+		<h2 class="head">Issues</h2>
+		<hr>
+		<table class="dataframetoday" id="issues">
+		<tr>
+		<th style="font-size: large;">Deposit id</th><th style="font-size: large;">Specific issue</th>
+		</tr>
+		{% for key in issues.keys() %}
+		<tr>
+		<td>
+		<a style="font-size: large;" href="{{ url_for('depView', depid = key) }}">{{ key }}</a>
+		</td>
+		<td style="font-size: large;">{{ issues.get(key) }}</td>
+		</tr>
+		{% endfor %}
+		</table>
+		{% endif %}
+	<br>
+		<div class="helpme">
+		<h1 class="head">More information</h1>
+		<pre>The redemption process is driven by a parser that scraps text files(ocr text) for specific information to apply payments. 
+		The parser creates parcel in deposits records (Generate pids) which are then used to make payment records (Redeem).
+		There are four major steps to this process </pre>
+		<ul>
+		<li>Generate parcels in deposits records (pids)</li>
+		<li> Deal with issues that interfere with the scraping of the parser 
+		(Mistakes in the ocr_text generated from the pdf files)</li>
+		<li>Redeem (Create payment records) <font color="green">*to do list shrinks if good</font></li>
+		<li>Reporting (check accuracy of payments)</li>
+		</ul>
+		<pre>Errors will appear in <font color="red">red</font> or will appear on the issues table. 
+		Go to the Deposits page to reconcile any errors.
+		Use the line validator to see exactly what the parser is looking for.
+		 Ocr_text may have to be adjust</pre>
+		<input type="button" value="close" onclick="togglehelp()">
+		</div>
+		<a class="gethelp" onclick="gethelp()" href="#">Need help?</a>
+	<script src="{{ url_for('static',filename='js/jquery-3.2.1.min.js') }}" type="text/javascript"></script>
+	<script type="text/javascript">
+	function pickstate(form,state,hideid){
+		$("#"+hideid).val(state);
+		document.getElementById(form).submit();
+	}
+	function gethelp(){
+		$('.helpme').show();
+		$("body").children(":not(.helpme)").fadeTo('fast',0.15);
+		$("script").hide();
+	}
+	function togglehelp(){
+		$('.helpme').hide();
+		$("body").children(":not(.helpme)").fadeTo('fast',1);
+		$("script").hide();
+	}
+	</script>
+		
+	</body>
+</html>

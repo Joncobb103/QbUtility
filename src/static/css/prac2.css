@@ -1,0 +1,58 @@
+.dataframe{
+	box-shadow: 5px 5px 5px silver;
+	background-color: DeepSkyBlue;
+	border-collapse: collapse;
+}
+hr{
+	border-color: DeepSkyBlue;
+}
+.thead{
+	background-color:black;
+	color:white;
+	font-size:110%;
+	text-shadow:1px 1px black;
+}
+.dataframe2{
+	box-shadow: 5px 5px 5px silver;
+	background-color: DeepSkyBlue;
+	border: 2px ridge black;
+}
+.dataframe2 td:nth-child(1){
+	color:white;
+	text-shadow: 1px 1px 1px black;
+	padding-left: 5px;
+}
+.dataframe2 input[type=submit]{
+	background-color:black;
+	color:white;
+	border: 1px solid transparent;
+	float:right;
+}
+
+.dataframe2 td{
+	border: 1px solid black;
+}
+.dataframe tr:nth-child(even){
+	background-color: #dddddd;
+}
+.dataframe tr:nth-child(odd){
+	background-color:white;
+}
+
+.dataframe2 th{
+	background-color:DeepSkyBlue;
+	border: 1px solid black;
+	text-align:center;
+}
+.dataframe td,th{
+	padding: 2px;
+}
+
+.head{
+	width: 35%;
+	padding: 2px;
+	text-shadow: 1px 1px DeepSkyBlue;
+}
+.head h1{
+	padding-left: 10px;
+}

@@ -1,0 +1,29 @@
+<com.fig.classes.CountyTxtFiles>
+  <a>
+    <entry>
+      <string>camden city (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\camden city (camden, nj)3new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>atlantic city (atlantic, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\atlantic city (atlantic, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>trenton (mercer, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\trenton (mercer, nj)3new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+  </a>
+  <txt/>
+</com.fig.classes.CountyTxtFiles>

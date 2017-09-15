@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/prac2.css') }}" >
+<link rel="shortcut icon" href="{{ url_for('static', filename = 'images/fig-logo.jpg') }}" />
+	<head>
+	<title></title>
+	</head>
+	<body>
+	{%if pid is none %}
+	<h1 class=head>Successfully Updated</h1>
+	{% else %}
+	<h3 class="head">Parcels In Deposits</h3>
+	<hr>
+	<form method="post" action="/updatePid">
+	<input type ="hidden" name = "pidid" value = "{{pid.get('id').get(0)}}">
+	<table class="dataframe2">
+	<thead>
+		<tr class="thead">
+			<th colspan="2">Add record to PID</th>
+		</tr>
+		</thead>
+	<tbody>
+		<tr>
+			<td>active_lien_number</td><td><input type="text" name="lien" value="{{pid.get('active_lien_number').get(0)}}"/></td>
+		</tr>
+		{% if state != 'NJ' %}
+		<tr>
+			<td>active_parcel</td><td><input type="text" name="parcel" value="{{pid.get('active_parcel').get(0)}}"/></td>
+		</tr>
+		<tr>
+			<td>tax_year</td><td><input type="text" name="taxyear" value="{{pid.get('tax_year').get(0)}}"/></td>
+		</tr>
+		<tr>
+			<td>lien_year</td><td><input type="text" name="lienyear" value="{{pid.get('lien_year').get(0)}}"/></td>
+		</tr>
+		{% else %}
+		<tr>
+			<td>block</td><td><input type="text" name="block" value="{{pid.get('block').get(0)}}"/></td>
+		</tr>
+		<tr>
+			<td>lot</td><td><input type="text" name="lot" value="{{pid.get('lot').get(0)}}"/></td>
+		</tr>
+		<tr>
+			<td>qual</td><td><input type="text" name="qual" value="{{pid.get('qual').get(0)}}"/></td>
+		</tr>
+		{% endif %}
+		<tr>
+			<td>total_per_parcel</td><td><input type="text" name="total" value="{{pid.get('total_per_parcel').get(0)}}"/></td>
+		</tr>
+		<tr>
+			<td></td><td><input type="submit" value="update pid" ></td>
+		</tr>
+		</tbody>
+	</table>
+	</form>
+	{% endif %}
+	</body>
+</html>

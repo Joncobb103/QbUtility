@@ -1,0 +1,69 @@
+<com.fig.classes.CountyTxtFiles>
+  <a>
+    <entry>
+      <string>newark (essex, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\newark (essex, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>linden (union, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\linden (union, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>asbury park (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\asbury park (monmouth, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>ocean (monmouth, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\ocean (monmouth, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>camden city (camden, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\camden city (camden, nj)3new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>barnegat (ocean, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\barnegat (ocean, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>bridgeton (cumberland, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\bridgeton (cumberland, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+    <entry>
+      <string>mantua (gloucester, nj)</string>
+      <java.util.Arrays_-ArrayList>
+        <a class="string-array">
+          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\NJXMLs\mantua (gloucester, nj)2new_XML.xml</string>
+        </a>
+      </java.util.Arrays_-ArrayList>
+    </entry>
+  </a>
+  <txt/>
+</com.fig.classes.CountyTxtFiles>

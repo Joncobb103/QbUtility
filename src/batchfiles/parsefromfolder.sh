@@ -1,0 +1,1 @@
+java -jar RunParseFromFolder.jar "folder=C:\Users\Jonathan.Cobb\Dropbox (Fig Team)\Developers\ga_pdf" "claim=C:\Users\Jonathan.Cobb\Dropbox (Fig Team)\Developers\ga_pdf\claimant2.csv" "liens=C:\Users\Jonathan.Cobb\Dropbox (Fig Team)\Developers\ga_pdf\Liens_2.csv"

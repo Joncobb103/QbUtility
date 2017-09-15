@@ -1,0 +1,71 @@
+.main{
+	padding-left:5cm;
+}
+.gethelp{
+	position: absolute;
+	right:1cm;
+	top: 6cm;
+}
+mark{
+	background-color: DeepSkyBlue;
+}
+.helpme{
+	display:none;
+	position: fixed;
+	top:30%;
+	right: 25%;
+	background-color: white;
+	border:6px ridge DeepSkyBlue;
+	height:15cm;
+	padding:1cm;
+	width:40cm;
+	font-size:x-large;
+	z-index: 9999;
+	overflow: auto;
+}
+.helpme li{
+	list-style-type: lower-roman;
+}
+.pdf{
+	height: 20cm;
+	width:40cm;
+	border: 2px solid DeepSkyBlue;
+	box-shadow: 2px 2px 2px  silver;
+	color:black;
+	padding-left:3px;
+	overflow:auto;
+}
+#rangeregmin,#rangeregmax,#regmin{
+	font-size: large;
+}
+#submitandpid,#submitanddep{
+	padding:6px;
+	font-size: large;
+}
+.header{
+	width:100%;margin-left:-8px;
+	background-color:black;
+	box-shadow: 2px 2px 2px silver;
+	border-top: 9px ridge silver;
+	border-bottom: 1px solid silver;
+}
+.main{
+	padding-top:0;
+	opacity: 0.9;
+	width:2100px;
+	font-size:large;
+}
+select{
+	font-size:large;
+}
+.main input[type=text]{
+	width:11cm;
+	height:0.5cm;
+}
+.header h1{
+	color:white;
+	padding-left:1cm;
+	font-style:italic;
+	font-size:150%;
+	text-shadow:1px 1px DeepSkyBlue;
+}
