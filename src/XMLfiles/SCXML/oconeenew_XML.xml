@@ -1,0 +1,65 @@
+<com.fig.classes.CountyClass>
+  <countyName>oconee</countyName>
+    <charReplacer>
+	  <string-array>
+	  <string>$</string>
+	  <string></string>
+	  </string-array>
+		  <string-array>
+		  	<string>"</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>)</string>
+		  	<string></string>
+		  </string-array>
+	  	<string-array>
+	  		<string>‘</string>
+	  		<string></string>
+	  	</string-array>
+		  <string-array>
+		  	<string>°</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>—</string>
+		  	<string>-</string>
+		  </string-array>
+          <string-array>
+          <string>&#009;&#009;</string>
+          <string> </string>
+        </string-array>
+          <string-array>
+          <string>&#009;</string>
+          <string> </string>
+        </string-array>
+          <string-array>
+          <string>  </string>
+          <string> </string>
+        </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string></string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string></string>
+  <list>
+  <string></string>
+  </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation></rotation>
+  <imagemagick></imagemagick>
+</com.fig.classes.CountyClass>

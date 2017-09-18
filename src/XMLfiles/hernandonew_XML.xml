@@ -1,0 +1,66 @@
+<com.fig.classes.CountyClass>
+  <countyName>hernando</countyName>
+      <charReplacer>
+		  <string-array>
+		  	<string>$</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>—</string>
+		  	<string>-</string>
+		  </string-array>
+		  <string-array>
+		  	<string>'</string>
+		  	<string>-</string>
+		  </string-array>
+		  <string-array>
+		  	<string> . </string>
+		  	<string> </string>
+		  </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>20[0-4][0-9][^0-9a-z]+[0-9]{5}[^0-9a-z]+[0-9]{2}[^0-9]20[0-9]{8}[^0-9]</string>
+      </list>
+    </entry>
+    <entry>
+      <string>date</string>
+      <list>
+        <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>total</string>
+      <list>
+        <string>([^0-9]+[0-9]{1,}[.][0-9]{2}){2}.+[^0-9]+[0-9]{1,}[.][0-9]{2}</string>
+        <string>[0-9]{1,}[.][0-9]{2}$</string>
+      </list>
+    </entry>
+    <entry>
+      <string>cert</string>
+      <list>
+        <string>[2][0][0-4][0-9][^0-9][0-9]{5}[^0-9][0-9]{2}[^0-9][0-9]+</string>
+        <string>[2][0][0-4][0-9][^0-9][0-9]{5}[^0-9][0-9]{2}</string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string>doc total</string>
+  <list>
+  <string>TOTAL:[^0-9a-z]+([0-9]+[.][0-9]{2}[^a-z0-9]+){2}[0-9]+[.][0-9]{2}</string>
+  <string>[0-9]+[.][0-9]{2}$</string>
+  </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation></rotation>
+  <imagemagick></imagemagick>
+</com.fig.classes.CountyClass>

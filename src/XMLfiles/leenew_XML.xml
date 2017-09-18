@@ -1,0 +1,73 @@
+<com.fig.classes.CountyClass>
+  <countyName>lee</countyName>
+  <charReplacer>
+		  <string-array>
+		  	<string>$</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>[0-9]{1,}\.[0-9]{2}[^a-z0-9]+Red.*</string>
+      </list>
+    </entry>
+    <entry>
+      <string>date</string>
+      <list>
+        <string>[0-9]{1,2}[/][0-9]{1,2}[/][2][0][0-9]{2}[ ]+[0-9][.][0-9]{2}</string>
+        <string>[0-9]{1,2}[/][0-9]{1,2}[/][2][0][0-9]{2}</string>
+      </list>
+    </entry>
+    <entry>
+      <string>total</string>
+      <list>
+      <string>[0-9]{1,}\.[0-9]{2}[^a-z0-9]+Red.*</string>
+        <string>[0-9]{1,}\.[0-9]{2}</string>
+      </list>
+    </entry>
+    <entry>
+      <string>parcel</string>
+      <list>
+        <string>([0-9A-Za-z]+[-]){4}[0-9A-Za-z]+[.]?[A-Z0-9]+</string>
+        <string>[0-9A-Za-z]</string>
+      </list>
+    </entry><!-- 
+    <entry>
+      <string>cert</string>
+      <list>
+        <string>[0-9]{2}[-][0-9]{6}[ ]+20[0-4][0-9]</string>
+        <string>[0-9]{2}[-][0-9]{6}</string>
+      </list>
+    </entry> -->
+        <entry>
+      <string>tax year</string>
+      <list>
+        <string>[0-9]{2}[-][0-9]{6}[ ]+20[0-4][0-9]</string>
+        <string>20[0-4][0-9]$</string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+    <entry>
+    	<string>doc date</string>
+    	<list>
+    		<string>(January|February|March|April|May|June|July|August|September|October|November|December)[^a-z0-9][0-3][0-9][^a-z0-9]+20[0-4][0-9]</string>
+    	</list>
+    </entry>
+	  <entry>
+		  <string>doc total</string>
+		  <list>
+			  <string>Certificate Total: ([0-9]+[.][0-9]{2}[^a-z0-9]){3}[0-9]+[.][0-9]{2}</string>
+			  <string>([0-9]+[.][0-9]{2}[^a-z0-9]){3}[0-9]+[.][0-9]{2}</string>
+			  <string>[0-9]+[.][0-9]{2}$</string>
+		  </list>
+	 </entry>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+</com.fig.classes.CountyClass>

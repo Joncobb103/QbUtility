@@ -1,0 +1,125 @@
+<com.fig.classes.CountyClass>
+  <countyName>Arapahoe</countyName>
+         <charReplacer>
+	  <string-array>
+		  <string>$</string>
+		  <string></string>
+	  </string-array>
+	  <string-array>
+		  <string>O</string>
+		  <string>0</string>
+	  </string-array>
+	  <string-array>
+		  <string>l</string>
+		  <string>1</string>
+	  </string-array>
+		  <string-array>
+		  	<string>"</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>)</string>
+		  	<string></string>
+		  </string-array>
+	  	<string-array>
+	  		<string>‘</string>
+	  		<string></string>
+	  	</string-array>
+		  <string-array>
+		  	<string>°</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>—</string>
+		  	<string>-</string>
+		  </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>[O0]pen[^0-9][27]0[0-9]{2}[ ][0-9]+([-][0-9]+)?.+[0-9]+[.][0-9]{2}</string>
+      </list>
+    </entry>
+    <entry>
+	    <string>total</string>
+	    <list>
+        <string>[72]0[0-9]{2}[ ][0-9]+(.[0-9]+)?[ ].+[0-9]+[.][0-9]{2}</string>
+        <string>[0-9]+[.][0-9]{2}$</string>
+	    </list>
+    </entry>
+<!--  
+    <entry>
+	    <string>purchase_amount</string>
+	    <list>
+        <string>[O0]pen.+[0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}</string>
+        <string>[^0-9][0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}[^0-9][0-9]+[.][0-9]{2}$</string>
+        <string>^[^0-9][0-9]+[.][0-9]{2}[^0-9]</string>
+        <string>[0-9]+[.][0-9]{2}</string>
+	    </list>
+    </entry>
+-->
+    <entry>
+      <string>cert</string>
+      <list>
+<!--  
+        <string>[27]0[0-9]{2}[ ][0-9]+([-][0-9]+)?[ ]</string>
+        <string>^[27]0[0-9]{2}[ ][0-9]+([-][0-9]+)?[ ]</string>
+        <string>[ ][0-9]+([-][0-9]+)?</string>
+        <string>[0-9]+([-][0-9]+)?</string>
+-->
+        <string>[27]0[0-9]{2}[ ][0-9]+[^0-9]</string>
+        <string>^[27]0[0-9]{2}[ ][0-9]+[^0-9]</string>
+        <string>[ ][0-9]+[^0-9]$</string>
+        <string>[0-9]+</string>
+      </list>
+    </entry>
+    <entry>
+      <string>lien year</string>
+      <list>
+        <string>20[0-9]{2}[ ][0-9]+[ ]</string>
+        <string>^20[0-9]{2}[ ][0-9]+[ ]</string>
+        <string>^20[0-9]{2}[ ]</string>
+        <string>20[0-9]{2}</string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string>doc total</string>
+      <list>
+      <string></string>
+      </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation>90</rotation>
+  <rotateRegexPattern>Redemption[^Dd]{1,10}Detail</rotateRegexPattern>
+<!--  
+  <imagemagick>-despeckle -liquid-rescale 91x101% -resize 3000 -despeckle -modulate 115  -gamma .5 -unsharp .1x5+5+1 -enhance</imagemagick> 
+-->
+  <imagemagick></imagemagick> 
+	<cropMap>
+	  <entry>
+	    <string>x</string>
+	    <int>576</int>
+	  </entry>
+	  <entry>
+	    <string>width</string>
+	    <int>288</int>
+	  </entry>
+	  <entry>
+	    <string>y</string>
+	    <int>71</int>
+	  </entry>
+	  <entry>
+	    <string>height</string>
+	    <int>72</int>
+	  </entry>
+	</cropMap>
+</com.fig.classes.CountyClass>

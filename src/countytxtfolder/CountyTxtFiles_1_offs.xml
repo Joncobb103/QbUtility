@@ -4,7 +4,7 @@
       <string>santarosa</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck27\src\CountyClassOneOff\santarosanew_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/santarosanew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -12,7 +12,7 @@
       <string>paterson (passaic, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\paterson (passaic, nj)new_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/paterson (passaic, nj)new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -20,7 +20,7 @@
       <string>escambia</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\escambianew_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/escambianew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -28,7 +28,7 @@
       <string>douglas</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\douglasnew_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/douglasnew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -36,7 +36,7 @@
       <string>levy</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\levynew_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/levynew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -44,7 +44,7 @@
       <string>park</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:\Users\Jonathan.Cobb\workspace1\DailyCheck\src\CountyClassOneOff\parknew_XML.xml</string>
+          <string>/DailyCheck/src/CountyClassOneOff/parknew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>

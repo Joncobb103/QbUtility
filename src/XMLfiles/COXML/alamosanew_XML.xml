@@ -1,0 +1,102 @@
+<com.fig.classes.CountyClass>
+  <countyName>Alamosa</countyName>
+         <charReplacer>
+	  <string-array>
+		  <string>$</string>
+		  <string></string>
+	  </string-array>
+	  <string-array>
+		  <string>O</string>
+		  <string>0</string>
+	  </string-array>
+	  <string-array>
+		  <string>l</string>
+		  <string>1</string>
+	  </string-array>
+		  <string-array>
+		  	<string>"</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>)</string>
+		  	<string></string>
+		  </string-array>
+	  	<string-array>
+	  		<string>‘</string>
+	  		<string></string>
+	  	</string-array>
+		  <string-array>
+		  	<string>°</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>—</string>
+		  	<string>-</string>
+		  </string-array>
+  </charReplacer>
+  <regexMap>
+      <entry>
+      <string>validLine</string>
+      <list>
+<!--         <string>Date:[ ]*[0-1][0-9][/][0-3][0-9][/]20[0-9]{2}</string>
+ -->
+         <string>HEREBY CERTIFY</string>
+      </list>
+    </entry>
+   <entry>
+      <string>date</string>
+      <list>
+        <string>Date:[ ]*[0-1][0-9][/][0-3][0-9][/]20[0-9]{2}</string>
+        <string>^Date:[ ]*[0-1][0-9][/][0-3][0-9][/]20[0-9]{2}</string>
+        <string>[0-1][0-9][/][0-3][0-9][/]20[0-9]{2}</string>
+      </list>
+    </entry>
+    <entry>
+	    <string>total</string>
+	    <list>
+<!--  
+	        <string>Amount:[ ]*[0-9]+[.][0-9]{2}</string>
+	        <string>^Amount:[ ]*[0-9]+[.][0-9]{2}</string>
+	        <string>[0-9]+[.][0-9]{2}</string>
+-->
+	        <string>Redemption[^0-9]+[0-9]+[.][0-9]{2}</string>
+	        <string>[^0-9][0-9]+[.][0-9]{2}$</string>
+	        <string>[0-9]+[.][0-9]{2}</string>
+	    </list>
+    </entry>
+<!--  
+    <entry>
+      <string>cert</string>
+      <list>
+        <string>Cert#[ ]*[0-9]+</string>
+        <string>^Cert#[ ]*[0-9]+</string>
+        <string>[0-9]+</string>
+      </list>
+    </entry>
+-->
+    <entry>
+      <string>parcel</string>
+      <list>
+        <string>Parce[l1][^0-9]+[0-9]{12}[^0-9]</string>
+        <string>[^0-9][0-9]{12}[^0-9]$</string>
+        <string>[0-9]{12}</string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string>doc total</string>
+      <list>
+      <string></string>
+      </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>30</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation></rotation>
+  <imagemagick>-resize 2500</imagemagick>
+</com.fig.classes.CountyClass>

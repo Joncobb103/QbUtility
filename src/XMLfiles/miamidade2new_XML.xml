@@ -1,0 +1,41 @@
+<com.fig.classes.CountyClass>
+  <countyName>miamidade</countyName>
+  <transformMap>
+  </transformMap>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>[^0-9A-Za-z]+20[123][0-9][^0-9A-Za-z]+[0-9]{3,}[^0-9A-Za-z]+</string>
+      </list>
+    </entry>
+    <entry>
+      <string>total</string>
+      <list>
+       <string>[^0-9A-Za-z]+[0-9]{2}[-][0-9]{4}[-][0-9]{3}[-][0-9]{4}[^0-9A-Za-z]+[0-9]+[.][0-9]{1,2}[^0-9A-Za-z]+</string>
+        <string>[^0-9A-Za-z]+[0-9]+[.][0-9]{1,2}[^0-9A-Za-z]+$</string>
+        <string>[0-9]+[.][0-9]{1,2}</string>
+      </list>
+    </entry>
+    
+    <entry>
+      <string>parcel</string>
+      <list>
+        <string>[^0-9A-Za-z]+[0-9]{2}[-][0-9]{4}[-][0-9]{3}[-][0-9]{4}[^0-9A-Za-z]+</string>
+        <string>[0-9]{2}[-][0-9]{4}[-][0-9]{3}[-][0-9]{4}</string>
+      </list>
+    </entry>
+
+    <entry>
+      <string>tax year</string>
+      <list>
+        <string>[^0-9A-Za-z]+20[1234][0-9][^0-9A-Za-z]+[0-9]{3,}[^0-9A-Za-z]+</string>
+        <string>[^0-9A-Za-z]+20[1234][0-9][^0-9A-Za-z]+</string>
+        <string>20[123][0-9]</string>
+      </list>
+    </entry>
+  </regexMap>
+   <regexMapDocLevel>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+</com.fig.classes.CountyClass>
