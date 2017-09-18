@@ -38,11 +38,13 @@
 	{% endfor %}		
 	</ul><br><br>
 	<p class=rephead>deposit_vs_payments</p>
+	<p2>Check for deposit amount against total invoiced</p2>
 	<hr>
 	{% block depvpay %}
 	{{deposit_vs_payments | safe }}
 	{% endblock %}
 	<p class=rephead>payment_high_int</p>
+	<p2>Check for payments with high interest.</p2>
 	<hr><br>
 	{%if payment_high_int|length > 0%}
 	<table class="report">
@@ -80,6 +82,7 @@
 	</div>
 	<br><br>
 	<p class=rephead>payment_partial</p>
+	<p2>Check for partial payments where the invoiced totals are greater than zero.</p2>
 	<hr><br>
 	{%if payment_partial|length > 0%}
 	<table class="report">
@@ -115,6 +118,7 @@
 	{% endif %}
 	<br><br>
 	<p class=rephead>payment_error_upf</p>
+	<p2>Check for all partial payments. Payments with nothing invoiced has to be removed. The link below is a report for payments with zero invoiced purchase amounts and zero invoice total.</p2>
 	<hr><br>
 	<a href="https://fig.quickbase.com/db/bk2rg4v85?a=q&qid=89" target="_blank">Payments with No Invoice</a><br><br>
 	{%if payment_error_upf|length > 0%}
@@ -151,6 +155,7 @@
 	{% endif %}
 	</div><br><br>
   <p class=rephead>payment_negative_invoice error</p>
+	<p2>Check for negative invoiced interest and negative invoiced totals.</p2>
   <hr><br>
   {%if payment_neg_inv|length > 0%}
   <table class="report">
@@ -186,6 +191,7 @@
   {% endif %}
 	<br><br>
   <p class=rephead>dep_over_under</p>
+	<p2>Check for deposits that are over or under-applied. (Deposit total not equal to deposit amount)</p2>
   <hr><br>
   {%if dep_over_under|length > 0%}
   <table class="report">
@@ -220,6 +226,7 @@
   {% endif %}
   <br><br>
   <p class=rephead>payment_redemption_review</p>
+	<p2>Check for unpaid face on a lien and/or parcel. </p2>
   <hr><br>
   {%if payment_redemption_review|length > 0%}
   <table class="report">

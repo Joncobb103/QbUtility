@@ -34016,3 +34016,1357 @@ and p.old_fig_deposits_record_id in (21710);
 </chdbids>
 </qdbapi>
 
+2017-09-18 08:40:18,480 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-09-18 08:40:40,240 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:40:40] "GET / HTTP/1.1" 200 -
+2017-09-18 08:40:40,378 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:40:40] "GET /static/css/dailycheck.css HTTP/1.1" 304 -
+2017-09-18 08:40:40,407 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:40:40] "GET /static/images/FinchIcon_Reversed_Red.jpg HTTP/1.1" 304 -
+2017-09-18 08:40:40,479 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:40:40] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+2017-09-18 08:42:17,049 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:42:17] "POST /createPid HTTP/1.1" 302 -
+2017-09-18 08:42:29,226 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:42:29] "POST /createPid HTTP/1.1" 302 -
+2017-09-18 08:42:36,575 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:42:36] "GET / HTTP/1.1" 200 -
+2017-09-18 08:43:56,137 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 08:43:58,209 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:43:58] "GET /depView/28549/ HTTP/1.1" 200 -
+2017-09-18 08:43:58,494 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:43:58] "GET /pdfView/28549 HTTP/1.1" 200 -
+2017-09-18 08:45:47,107 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:47] "POST /Updateocr HTTP/1.1" 302 -
+2017-09-18 08:45:48,487 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 08:45:50,385 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:50] "GET /depView/28549/ HTTP/1.1" 200 -
+2017-09-18 08:45:50,628 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:50] "GET /pdfView/28549 HTTP/1.1" 200 -
+2017-09-18 08:45:53,323 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:53] "POST /DeletePid HTTP/1.1" 302 -
+2017-09-18 08:45:54,686 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 08:45:56,595 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:56] "GET /depView/28549/ HTTP/1.1" 200 -
+2017-09-18 08:45:56,836 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:45:56] "GET /pdfView/28549 HTTP/1.1" 200 -
+2017-09-18 08:46:11,233 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:46:11] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 08:46:12,584 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 08:46:14,420 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:46:14] "GET /depView/28549/ HTTP/1.1" 200 -
+2017-09-18 08:46:14,663 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:46:14] "GET /pdfView/28549 HTTP/1.1" 200 -
+2017-09-18 08:46:28,114 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:46:28] "GET / HTTP/1.1" 200 -
+2017-09-18 08:54:44,726 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:54:44] "GET / HTTP/1.1" 200 -
+2017-09-18 08:54:44,786 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:54:44] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 08:57:31,874 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:57:31] "GET / HTTP/1.1" 200 -
+2017-09-18 08:57:31,963 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 08:57:31] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 09:00:22,131 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:00:22] "POST /createPid HTTP/1.1" 302 -
+2017-09-18 09:00:29,513 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:00:29] "GET / HTTP/1.1" 200 -
+2017-09-18 09:00:41,424 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:00:41] "POST /createPid HTTP/1.1" 302 -
+2017-09-18 09:00:48,789 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:00:48] "GET / HTTP/1.1" 200 -
+2017-09-18 09:05:34,078 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28513'}OR{'8'.EX.'28578'}OR{'8'.EX.'28549'}OR{'8'.EX.'28519'}OR{'8'.EX.'28521'}OR{'8'.EX.'28522'}OR{'8'.EX.'28587'}OR{'8'.EX.'28588'}OR{'8'.EX.'28591'}OR{'8'.EX.'28501'}OR{'8'.EX.'28575'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:34,575 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:05:35,072 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>42</num_recs_input>
+	<num_recs_added>42</num_recs_added>
+	<rids>
+	  <rid update_id="1505739934853">49219</rid>
+	  <rid update_id="1505739934853">49220</rid>
+	  <rid update_id="1505739934853">49221</rid>
+	  <rid update_id="1505739934853">49222</rid>
+	  <rid update_id="1505739934853">49223</rid>
+	  <rid update_id="1505739934853">49224</rid>
+	  <rid update_id="1505739934853">49225</rid>
+	  <rid update_id="1505739934853">49226</rid>
+	  <rid update_id="1505739934853">49227</rid>
+	  <rid update_id="1505739934853">49228</rid>
+	  <rid update_id="1505739934853">49229</rid>
+	  <rid update_id="1505739934853">49230</rid>
+	  <rid update_id="1505739934853">49231</rid>
+	  <rid update_id="1505739934853">49232</rid>
+	  <rid update_id="1505739934853">49233</rid>
+	  <rid update_id="1505739934853">49234</rid>
+	  <rid update_id="1505739934853">49235</rid>
+	  <rid update_id="1505739934853">49236</rid>
+	  <rid update_id="1505739934853">49237</rid>
+	  <rid update_id="1505739934853">49238</rid>
+	  <rid update_id="1505739934853">49239</rid>
+	  <rid update_id="1505739934853">49240</rid>
+	  <rid update_id="1505739934853">49241</rid>
+	  <rid update_id="1505739934853">49242</rid>
+	  <rid update_id="1505739934853">49243</rid>
+	  <rid update_id="1505739934853">49244</rid>
+	  <rid update_id="1505739934853">49245</rid>
+	  <rid update_id="1505739934853">49246</rid>
+	  <rid update_id="1505739934853">49247</rid>
+	  <rid update_id="1505739934853">49248</rid>
+	  <rid update_id="1505739934853">49249</rid>
+	  <rid update_id="1505739934853">49250</rid>
+	  <rid update_id="1505739934853">49251</rid>
+	  <rid update_id="1505739934853">49252</rid>
+	  <rid update_id="1505739934853">49253</rid>
+	  <rid update_id="1505739934853">49254</rid>
+	  <rid update_id="1505739934853">49255</rid>
+	  <rid update_id="1505739934853">49256</rid>
+	  <rid update_id="1505739934853">49257</rid>
+	  <rid update_id="1505739934853">49258</rid>
+	  <rid update_id="1505739934853">49259</rid>
+	  <rid update_id="1505739934853">49260</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:05:44,489 - root - INFO - qbflaskportfolio: Deposit ID: 36528 : building payments for upload to Quickbase
+2017-09-18 09:05:44,500 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'38'.EX.'17021668'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:44,963 - root - WARNING - ERROR batch_waterfall on deposit_id=36528: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                1
+deposit_amount                                     7572.9
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36528
+update_id                                   1505737718693
+2017-09-18 09:05:44,963 - root - WARNING - No liens returned that match any row in Parcels for Deposits.  Review the information like parcel, active_lien_number, block, lot or qual, tax_year or anything else that you entered.
+2017-09-18 09:05:44,964 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 989, in get_payments_from_parcel_table
+    df_liens = get_liens_from_list(df_parcel_table,deposit_id,field_list,38)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 935, in get_liens_from_list
+    raise dfexcept
+DfException
+
+2017-09-18 09:05:44,966 - root - INFO - qbflaskportfolio: Deposit ID: 36535 : building payments for upload to Quickbase
+2017-09-18 09:05:45,974 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-22-44-26-03-00007.0050'}OR{'9'.EX.'17098-22442603000070050'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:46,838 - root - WARNING - ERROR batch_waterfall on deposit_id=36535: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                2
+deposit_amount                                    2411.76
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36535
+update_id                                   1505737712317
+2017-09-18 09:05:46,838 - root - WARNING - <p> Error: cannot find liens using the following info:<p> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>active_parcel___block_lot_qual</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>tax_year</th>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>active_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>active_lien_number</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>deposit___district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>total_for_parcel</th>
+      <td>2411.76</td>
+    </tr>
+    <tr>
+      <th>new_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>old_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>search_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>active_parcel_y</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>record_id</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>record_id_</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>update_id</th>
+      <td>1504699621769</td>
+    </tr>
+    <tr>
+      <th>iloc_index</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><p> <p> See the liens data below.<p> 
+2017-09-18 09:05:46,839 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1033, in get_payments_from_parcel_table
+    df_payments = get_best_payments(df_liens_2, df_parcel_table)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1308, in get_best_payments
+    raise df_except
+DfException
+
+2017-09-18 09:05:46,839 - root - INFO - qbflaskportfolio: Deposit ID: 36533 : building payments for upload to Quickbase
+2017-09-18 09:05:46,845 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'38'.EX.'17001536'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:47,299 - root - WARNING - ERROR batch_waterfall on deposit_id=36533: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                1
+deposit_amount                                    1815.89
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36533
+update_id                                   1505737710192
+2017-09-18 09:05:47,301 - root - WARNING - No liens returned that match any row in Parcels for Deposits.  Review the information like parcel, active_lien_number, block, lot or qual, tax_year or anything else that you entered.
+2017-09-18 09:05:47,302 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 989, in get_payments_from_parcel_table
+    df_liens = get_liens_from_list(df_parcel_table,deposit_id,field_list,38)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 935, in get_liens_from_list
+    raise dfexcept
+DfException
+
+2017-09-18 09:05:47,302 - root - INFO - qbflaskportfolio: Deposit ID: 36536 : building payments for upload to Quickbase
+2017-09-18 09:05:49,734 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17128-15-25-16-0380-00000-2190'}OR{'9'.EX.'17128-27-23-21-0060-00000-0030'}OR{'9'.EX.'17128-25-25-21-0040-00000-0171'}OR{'9'.EX.'17128-11-26-21-0010-12900-0015'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:50,865 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36536 : sending payments to Quickbase
+2017-09-18 09:05:51,529 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>23</num_recs_input>
+	<num_recs_added>23</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739951307">472627</rid>
+	  <rid update_id="1505739951307">472628</rid>
+	  <rid update_id="1505739951307">472629</rid>
+	  <rid update_id="1505739951307">472630</rid>
+	  <rid update_id="1505739951307">472631</rid>
+	  <rid update_id="1505739951307">472632</rid>
+	  <rid update_id="1505739951307">472633</rid>
+	  <rid update_id="1505739951307">472634</rid>
+	  <rid update_id="1505739951307">472635</rid>
+	  <rid update_id="1505739951307">472636</rid>
+	  <rid update_id="1505739951307">472637</rid>
+	  <rid update_id="1505739951307">472638</rid>
+	  <rid update_id="1505739951307">472639</rid>
+	  <rid update_id="1505739951307">472640</rid>
+	  <rid update_id="1505739951307">472641</rid>
+	  <rid update_id="1505739951307">472642</rid>
+	  <rid update_id="1505739951307">472643</rid>
+	  <rid update_id="1505739951307">472644</rid>
+	  <rid update_id="1505739951307">472645</rid>
+	  <rid update_id="1505739951307">472646</rid>
+	  <rid update_id="1505739951307">472647</rid>
+	  <rid update_id="1505739951322">472648</rid>
+	  <rid update_id="1505739951322">472649</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:05:51,530 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:05:51,532 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:05:51,966 - root - INFO - qbflaskportfolio: Deposit ID: 36540 : building payments for upload to Quickbase
+2017-09-18 09:05:55,796 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17138-2422-504-0116-000/5'}OR{'9'.EX.'17138-2410-604-0077-000/9'}OR{'9'.EX.'17138-3419-540-0313-000/1'}OR{'9'.EX.'17138-2311-601-0102-000/1'}OR{'9'.EX.'17138-2409-443-0001-000/9'}OR{'9'.EX.'17138-3420-555-0970-000/4'}OR{'9'.EX.'17138-2404-702-0044-000/1'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:56,865 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36540 : sending payments to Quickbase
+2017-09-18 09:05:57,431 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>7</num_recs_input>
+	<num_recs_added>7</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739957213">472650</rid>
+	  <rid update_id="1505739957213">472651</rid>
+	  <rid update_id="1505739957213">472652</rid>
+	  <rid update_id="1505739957213">472653</rid>
+	  <rid update_id="1505739957213">472654</rid>
+	  <rid update_id="1505739957213">472655</rid>
+	  <rid update_id="1505739957213">472656</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:05:57,434 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:05:57,434 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:05:57,871 - root - INFO - qbflaskportfolio: Deposit ID: 36538 : building payments for upload to Quickbase
+2017-09-18 09:05:57,890 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'38'.EX.'8867'}OR{'38'.EX.'9847'}OR{'38'.EX.'10461'}OR{'38'.EX.'10459'}OR{'38'.EX.'10458'}OR{'38'.EX.'16455'}OR{'38'.EX.'1598'}OR{'38'.EX.'4973'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:05:59,154 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36538 : sending payments to Quickbase
+2017-09-18 09:05:59,726 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>8</num_recs_input>
+	<num_recs_added>8</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739959494">472657</rid>
+	  <rid update_id="1505739959494">472658</rid>
+	  <rid update_id="1505739959510">472659</rid>
+	  <rid update_id="1505739959510">472660</rid>
+	  <rid update_id="1505739959510">472661</rid>
+	  <rid update_id="1505739959510">472662</rid>
+	  <rid update_id="1505739959510">472663</rid>
+	  <rid update_id="1505739959510">472664</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:05:59,726 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:05:59,729 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:00,168 - root - INFO - qbflaskportfolio: Deposit ID: 36537 : building payments for upload to Quickbase
+2017-09-18 09:06:06,391 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17128-31-26-16-0160-00000-1480'}OR{'9'.EX.'17128-34-26-16-0000-00500-0030'}OR{'9'.EX.'17128-15-26-16-004I-00000-5260'}OR{'9'.EX.'17128-12-25-16-0090-06800-0080'}OR{'9'.EX.'17128-33-25-16-0050-00000-0240'}OR{'9'.EX.'17128-26-25-18-0000-01100-0000'}OR{'9'.EX.'17128-10-25-16-055A-00000-0450'}OR{'9'.EX.'17128-27-24-16-0130-00A00-0080'}OR{'9'.EX.'17128-01-26-21-0070-00R00-0890'}OR{'9'.EX.'17128-05-26-16-0030-03600-0130'}OR{'9'.EX.'17128-32-25-16-0280-01000-0180'}OR{'9'.EX.'17128-36-26-15-0760-00000-3360'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:06:07,572 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36537 : sending payments to Quickbase
+2017-09-18 09:06:08,147 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>12</num_recs_input>
+	<num_recs_added>12</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739967933">472665</rid>
+	  <rid update_id="1505739967933">472666</rid>
+	  <rid update_id="1505739967933">472667</rid>
+	  <rid update_id="1505739967933">472668</rid>
+	  <rid update_id="1505739967933">472669</rid>
+	  <rid update_id="1505739967933">472670</rid>
+	  <rid update_id="1505739967933">472671</rid>
+	  <rid update_id="1505739967933">472672</rid>
+	  <rid update_id="1505739967933">472673</rid>
+	  <rid update_id="1505739967933">472674</rid>
+	  <rid update_id="1505739967933">472675</rid>
+	  <rid update_id="1505739967933">472676</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:06:08,148 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:06:08,148 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:08,596 - root - INFO - qbflaskportfolio: Deposit ID: 36543 : building payments for upload to Quickbase
+2017-09-18 09:06:10,515 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17158-25-2S-20-33201-00I-0020'}OR{'9'.EX.'17158-29-2S-21-42700-000-0050'}OR{'9'.EX.'17158-06-1S-17-07000-006-0010'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:06:11,483 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36543 : sending payments to Quickbase
+2017-09-18 09:06:12,039 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>3</num_recs_input>
+	<num_recs_added>3</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739971825">472677</rid>
+	  <rid update_id="1505739971825">472678</rid>
+	  <rid update_id="1505739971825">472679</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:06:12,040 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:06:12,040 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:12,493 - root - INFO - qbflaskportfolio: Deposit ID: 36539 : building payments for upload to Quickbase
+2017-09-18 09:06:13,417 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17138-2307-111-0002-010/6'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:06:14,384 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36539 : sending payments to Quickbase
+2017-09-18 09:06:14,953 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>	  <rid update_id="1505739974732">472680</rid></rids>
+</qdbapi>
+
+2017-09-18 09:06:14,953 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:06:14,954 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:15,403 - root - INFO - qbflaskportfolio: Deposit ID: 36542 : building payments for upload to Quickbase
+2017-09-18 09:06:15,414 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'38'.EX.'10126'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:06:16,464 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36542 : sending payments to Quickbase
+2017-09-18 09:06:17,026 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>3</num_recs_input>
+	<num_recs_added>3</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739976810">472681</rid>
+	  <rid update_id="1505739976810">472682</rid>
+	  <rid update_id="1505739976810">472683</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:06:17,028 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:06:17,028 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:17,469 - root - INFO - qbflaskportfolio: Deposit ID: 36541 : building payments for upload to Quickbase
+2017-09-18 09:06:17,489 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'38'.EX.'8220'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:06:18,545 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36541 : sending payments to Quickbase
+2017-09-18 09:06:19,111 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>3</num_recs_input>
+	<num_recs_added>3</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505739978888">472684</rid>
+	  <rid update_id="1505739978888">472685</rid>
+	  <rid update_id="1505739978904">472686</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:06:19,114 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:06:19,115 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:06:19,559 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:06:19] "POST /autoRedeem HTTP/1.1" 302 -
+2017-09-18 09:06:26,944 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:06:26] "GET / HTTP/1.1" 200 -
+2017-09-18 09:35:52,836 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28520'}OR{'8'.EX.'28548'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:35:53,306 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:35:53,743 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>11</num_recs_input>
+	<num_recs_added>11</num_recs_added>
+	<rids>
+	  <rid update_id="1505741753530">49261</rid>
+	  <rid update_id="1505741753530">49262</rid>
+	  <rid update_id="1505741753530">49263</rid>
+	  <rid update_id="1505741753530">49264</rid>
+	  <rid update_id="1505741753530">49265</rid>
+	  <rid update_id="1505741753530">49266</rid>
+	  <rid update_id="1505741753530">49267</rid>
+	  <rid update_id="1505741753530">49268</rid>
+	  <rid update_id="1505741753530">49269</rid>
+	  <rid update_id="1505741753530">49270</rid>
+	  <rid update_id="1505741753530">49271</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:35:58,778 - root - INFO - qbflaskportfolio: Deposit ID: 36488 : building payments for upload to Quickbase
+2017-09-18 09:35:59,733 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'89067-219-14-0160'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:36:00,729 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36488 : sending payments to Quickbase
+2017-09-18 09:36:01,295 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>4</num_recs_input>
+	<num_recs_added>4</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505741761062">472687</rid>
+	  <rid update_id="1505741761062">472688</rid>
+	  <rid update_id="1505741761078">472689</rid>
+	  <rid update_id="1505741761078">472690</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:36:01,296 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:36:01,298 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:36:01,755 - root - INFO - qbflaskportfolio: Deposit ID: 36487 : building payments for upload to Quickbase
+2017-09-18 09:36:03,190 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'89069-103-35-02400'}OR{'9'.EX.'89069-103-35-77808'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:36:04,236 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36487 : sending payments to Quickbase
+2017-09-18 09:36:04,835 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>10</num_recs_input>
+	<num_recs_added>10</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505741764609">472691</rid>
+	  <rid update_id="1505741764609">472692</rid>
+	  <rid update_id="1505741764609">472693</rid>
+	  <rid update_id="1505741764609">472694</rid>
+	  <rid update_id="1505741764609">472695</rid>
+	  <rid update_id="1505741764609">472696</rid>
+	  <rid update_id="1505741764609">472697</rid>
+	  <rid update_id="1505741764609">472698</rid>
+	  <rid update_id="1505741764609">472699</rid>
+	  <rid update_id="1505741764609">472700</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:36:04,838 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:36:04,838 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:36:05,286 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:36:05] "POST /autoRedeem HTTP/1.1" 302 -
+2017-09-18 09:36:12,684 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:36:12] "GET / HTTP/1.1" 200 -
+2017-09-18 09:36:52,135 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28550'}OR{'8'.EX.'28551'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:36:52,609 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:36:53,052 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>3</num_recs_input>
+	<num_recs_added>3</num_recs_added>
+	<rids>
+	  <rid update_id="1505741812834">49272</rid>
+	  <rid update_id="1505741812834">49273</rid>
+	  <rid update_id="1505741812834">49274</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:36:58,075 - root - INFO - qbflaskportfolio: Deposit ID: 36490 : building payments for upload to Quickbase
+2017-09-18 09:36:59,016 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'50133-431120009'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:36:59,970 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36490 : sending payments to Quickbase
+2017-09-18 09:37:00,538 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>4</num_recs_input>
+	<num_recs_added>4</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505741820321">472701</rid>
+	  <rid update_id="1505741820321">472702</rid>
+	  <rid update_id="1505741820321">472703</rid>
+	  <rid update_id="1505741820321">472704</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:37:00,539 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:37:00,540 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:37:00,996 - root - INFO - qbflaskportfolio: Deposit ID: 36489 : building payments for upload to Quickbase
+2017-09-18 09:37:01,980 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'50041-555908300136'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:37:02,956 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36489 : sending payments to Quickbase
+2017-09-18 09:37:03,513 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>3</num_recs_input>
+	<num_recs_added>3</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>
+	  <rid update_id="1505741823290">472705</rid>
+	  <rid update_id="1505741823290">472706</rid>
+	  <rid update_id="1505741823290">472707</rid>
+	</rids>
+</qdbapi>
+
+2017-09-18 09:37:03,516 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:37:03,516 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:37:03,963 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:37:03] "POST /autoRedeem HTTP/1.1" 302 -
+2017-09-18 09:37:11,345 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:37:11] "GET / HTTP/1.1" 200 -
+2017-09-18 09:38:01,173 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:38:02,165 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:02] "GET /depView/28575/ HTTP/1.1" 200 -
+2017-09-18 09:38:02,338 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:02] "GET /pdfView/28575 HTTP/1.1" 200 -
+2017-09-18 09:38:39,173 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:39] "POST /DeletePid HTTP/1.1" 302 -
+2017-09-18 09:38:40,525 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:38:41,538 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:41] "GET /depView/28575/ HTTP/1.1" 200 -
+2017-09-18 09:38:41,664 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:41] "GET /pdfView/28575 HTTP/1.1" 200 -
+2017-09-18 09:38:46,736 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:46] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 09:38:48,055 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:38:49,079 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:49] "GET /depView/28575/ HTTP/1.1" 200 -
+2017-09-18 09:38:49,207 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:38:49] "GET /pdfView/28575 HTTP/1.1" 200 -
+2017-09-18 09:39:31,375 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28575'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:39:31,848 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:39:32,279 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<rids>	  <rid update_id="1505741972063">49275</rid></rids>
+</qdbapi>
+
+2017-09-18 09:39:36,687 - root - INFO - qbflaskportfolio: Deposit ID: 36533 : building payments for upload to Quickbase
+2017-09-18 09:39:37,645 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-214326020000E0050'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:39:38,588 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36533 : sending payments to Quickbase
+2017-09-18 09:39:39,148 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>	  <rid update_id="1505741978925">472708</rid></rids>
+</qdbapi>
+
+2017-09-18 09:39:39,148 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:39:39,150 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:39:39,596 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:39:39] "POST /autoRedeem_sp HTTP/1.1" 302 -
+2017-09-18 09:39:41,937 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:39:41] "GET /depView/28575/ HTTP/1.1" 200 -
+2017-09-18 09:39:42,065 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:39:42] "GET /pdfView/28575 HTTP/1.1" 200 -
+2017-09-18 09:40:15,941 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:40:15] "GET / HTTP/1.1" 200 -
+2017-09-18 09:41:03,150 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:41:04,174 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:04] "GET /depView/28578/ HTTP/1.1" 200 -
+2017-09-18 09:41:04,309 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:04] "GET /pdfView/28578 HTTP/1.1" 200 -
+2017-09-18 09:41:09,301 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:09] "POST /DeleteAPid/28578 HTTP/1.1" 302 -
+2017-09-18 09:41:10,654 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:41:11,632 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:11] "GET /depView/28578/ HTTP/1.1" 200 -
+2017-09-18 09:41:11,757 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:11] "GET /pdfView/28578 HTTP/1.1" 200 -
+2017-09-18 09:41:37,029 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28578'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:41:37,490 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:41:37,926 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<rids>	  <rid update_id="1505742097702">49276</rid></rids>
+</qdbapi>
+
+2017-09-18 09:41:42,542 - root - INFO - qbflaskportfolio: Deposit ID: 36535 : building payments for upload to Quickbase
+2017-09-18 09:41:43,528 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-22-44-26-03-00007.0050'}OR{'9'.EX.'17098-22442603000070050'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:41:44,127 - root - WARNING - ERROR batch_waterfall on deposit_id=36535: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                3
+deposit_amount                                    2411.76
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36535
+update_id                                   1505737712317
+2017-09-18 09:41:44,128 - root - WARNING - <p> Error: cannot find liens using the following info:<p> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>active_parcel___block_lot_qual</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>tax_year</th>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>active_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>active_lien_number</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>deposit___district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>total_for_parcel</th>
+      <td>4823.52</td>
+    </tr>
+    <tr>
+      <th>new_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>old_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>search_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>active_parcel_y</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>record_id</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>record_id_</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>update_id</th>
+      <td>1504699621769</td>
+    </tr>
+    <tr>
+      <th>iloc_index</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><p> <p> See the liens data below.<p> 
+2017-09-18 09:41:44,128 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1033, in get_payments_from_parcel_table
+    df_payments = get_best_payments(df_liens_2, df_parcel_table)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1308, in get_best_payments
+    raise df_except
+DfException
+
+2017-09-18 09:41:44,131 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:44] "POST /autoRedeem_sp HTTP/1.1" 302 -
+2017-09-18 09:41:45,464 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:41:46,463 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:46] "GET /depView/28578/ HTTP/1.1" 200 -
+2017-09-18 09:41:46,585 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:41:46] "GET /pdfView/28578 HTTP/1.1" 200 -
+2017-09-18 09:43:00,095 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28578'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:43:00,559 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:43:00,997 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<rids>	  <rid update_id="1505742180769">49277</rid></rids>
+</qdbapi>
+
+2017-09-18 09:43:05,582 - root - INFO - qbflaskportfolio: Deposit ID: 36535 : building payments for upload to Quickbase
+2017-09-18 09:43:06,536 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-22-44-26-03-00007.0050'}OR{'9'.EX.'17098-22442603000070050'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:43:07,121 - root - WARNING - ERROR batch_waterfall on deposit_id=36535: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                1
+deposit_amount                                    2411.76
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36535
+update_id                                   1505737712317
+2017-09-18 09:43:07,124 - root - WARNING - <p> Error: cannot find liens using the following info:<p> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tax_year</th>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>active_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>active_parcel___block_lot_qual</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>deposit___district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>total_for_parcel</th>
+      <td>2411.76</td>
+    </tr>
+    <tr>
+      <th>new_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>old_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>search_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>active_parcel_y</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>record_id</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>record_id_</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>update_id</th>
+      <td>1504699621769</td>
+    </tr>
+    <tr>
+      <th>iloc_index</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><p> <p> See the liens data below.<p> 
+2017-09-18 09:43:07,125 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1033, in get_payments_from_parcel_table
+    df_payments = get_best_payments(df_liens_2, df_parcel_table)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1308, in get_best_payments
+    raise df_except
+DfException
+
+2017-09-18 09:43:07,127 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:43:07] "POST /autoRedeem_sp HTTP/1.1" 302 -
+2017-09-18 09:43:08,447 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:43:09,483 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:43:09] "GET /depView/28578/ HTTP/1.1" 200 -
+2017-09-18 09:43:09,607 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:43:09] "GET /pdfView/28578 HTTP/1.1" 200 -
+2017-09-18 09:44:48,084 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28578'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:44:48,539 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:44:48,977 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<rids>	  <rid update_id="1505742288754">49278</rid></rids>
+</qdbapi>
+
+2017-09-18 09:44:53,354 - root - INFO - qbflaskportfolio: Deposit ID: 36535 : building payments for upload to Quickbase
+2017-09-18 09:44:54,302 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-22-44-26-03-00007.0050'}OR{'9'.EX.'17098-22442603000070050'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:44:54,882 - root - WARNING - ERROR batch_waterfall on deposit_id=36535: _process_deposit: df_row_dep: bank_statements_record_id___deposit_date    1505433600000
+count_parcels_in_deposit                                1
+deposit_amount                                    2411.76
+deposit_override_checkbox                               0
+district_id___district_name                           Lee
+district_id___state                               Florida
+district_id___state_code                               FL
+record_id                                           36535
+update_id                                   1505737712317
+2017-09-18 09:44:54,884 - root - WARNING - <p> Error: cannot find liens using the following info:<p> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tax_year</th>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>active_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>active_parcel___block_lot_qual</th>
+      <td>%%</td>
+    </tr>
+    <tr>
+      <th>deposit___district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>total_for_parcel</th>
+      <td>2411.76</td>
+    </tr>
+    <tr>
+      <th>new_parcel</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>old_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>search_parcel</th>
+      <td>22442603000070050</td>
+    </tr>
+    <tr>
+      <th>active_parcel_y</th>
+      <td>17098-22-44-26-03-00007.0050</td>
+    </tr>
+    <tr>
+      <th>district_id</th>
+      <td>17098</td>
+    </tr>
+    <tr>
+      <th>record_id</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>record_id_</th>
+      <td>79148</td>
+    </tr>
+    <tr>
+      <th>update_id</th>
+      <td>1504699621769</td>
+    </tr>
+    <tr>
+      <th>iloc_index</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><p> <p> See the liens data below.<p> 
+2017-09-18 09:44:54,887 - root - WARNING - Traceback (most recent call last):
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 569, in _process_deposit
+    df_payments_final = waterfall(dict_deposit, df_parcels_in_deposit_this_dep)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 435, in waterfall
+    df_payments_final = get_payments_from_parcel_table(df_parcel_table,dict_deposit)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1033, in get_payments_from_parcel_table
+    df_payments = get_best_payments(df_liens_2, df_parcel_table)
+  File "C:\Users\Jonathan.Cobb\workspace1\dbqbsync\dbqbsync\qbflaskportfolio_saved.py", line 1308, in get_best_payments
+    raise df_except
+DfException
+
+2017-09-18 09:44:54,888 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:44:54] "POST /autoRedeem_sp HTTP/1.1" 302 -
+2017-09-18 09:44:56,234 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:44:57,226 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:44:57] "GET /depView/28578/ HTTP/1.1" 200 -
+2017-09-18 09:44:57,358 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:44:57] "GET /pdfView/28578 HTTP/1.1" 200 -
+2017-09-18 09:46:06,161 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:06] "GET / HTTP/1.1" 200 -
+2017-09-18 09:46:11,089 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:46:12,092 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:12] "GET /depView/28587/ HTTP/1.1" 200 -
+2017-09-18 09:46:12,210 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:12] "GET /pdfView/28587 HTTP/1.1" 200 -
+2017-09-18 09:46:21,987 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:21] "POST /DeleteAPid/28587 HTTP/1.1" 302 -
+2017-09-18 09:46:23,391 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:46:24,359 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:24] "GET /depView/28587/ HTTP/1.1" 200 -
+2017-09-18 09:46:24,516 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:24] "GET /pdfView/28587 HTTP/1.1" 200 -
+2017-09-18 09:46:29,609 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:29] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 09:46:31,176 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:46:32,190 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:32] "GET /depView/28587/ HTTP/1.1" 200 -
+2017-09-18 09:46:32,312 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:46:32] "GET /pdfView/28587 HTTP/1.1" 200 -
+2017-09-18 09:47:01,269 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.8.77</clist><query>{'8'.EX.'28587'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:47:01,720 - root - INFO - upload_parcels_in_deposits_from_df
+2017-09-18 09:47:02,174 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<rids>	  <rid update_id="1505742421941">49279</rid></rids>
+</qdbapi>
+
+2017-09-18 09:47:06,927 - root - INFO - qbflaskportfolio: Deposit ID: 36528 : building payments for upload to Quickbase
+2017-09-18 09:47:07,868 - qbapi.qbapi - DEBUG - <qdbapi><ticket>8_bm4pcqjqx_b2683s_itnj_a_dwniemtnmia72cvpxk4cbd7j88ibvzzw3pc469kfhdegw6sxcyad38n</ticket><apptoken>cxeyvydbvik5y3523fepbiue8q2</apptoken><clist>3.261.6.9.267.14.20.38.42.43.47.48.49.333.208.337.345.346.347.348.349.350.352.226.362.363</clist><query>{'9'.EX.'17098-06462432000000480'}</query><includeRids>1</includeRids></qdbapi>
+2017-09-18 09:47:08,822 - root - INFO - SUCCESS: batch_waterfall: Deposit ID: 36528 : sending payments to Quickbase
+2017-09-18 09:47:09,401 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_ImportFromCSV</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+	<num_recs_input>1</num_recs_input>
+	<num_recs_added>1</num_recs_added>
+	<num_recs_updated>0</num_recs_updated>
+	<num_recs_unchanged>0</num_recs_unchanged>
+	<rids>	  <rid update_id="1505742429176">472710</rid></rids>
+</qdbapi>
+
+2017-09-18 09:47:09,403 - root - INFO - upload_payments_from_by_state: done
+2017-09-18 09:47:09,404 - root - INFO - Empty DataFrame
+Columns: []
+Index: []
+2017-09-18 09:47:09,875 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:47:09] "POST /autoRedeem_sp HTTP/1.1" 302 -
+2017-09-18 09:47:12,145 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:47:12] "GET /depView/28587/ HTTP/1.1" 200 -
+2017-09-18 09:47:12,266 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:47:12] "GET /pdfView/28587 HTTP/1.1" 200 -
+2017-09-18 09:47:30,081 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:47:33,509 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:47:33] "GET / HTTP/1.1" 200 -
+2017-09-18 09:47:52,793 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:47:53,779 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:47:53,891 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:47:53] "GET /reports HTTP/1.1" 200 -
+2017-09-18 09:48:39,415 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Payments</name>
+<desc>Lien by lien detail of payments of the tax liens birthed from the deposits received by FIG</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:48:40,413 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 09:48:40,430 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:48:40] "GET /reports HTTP/1.1" 200 -
+2017-09-18 09:48:40,505 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:48:40] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
