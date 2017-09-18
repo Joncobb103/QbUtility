@@ -1,0 +1,81 @@
+<com.fig.classes.CountyClass>
+  <countyName>suwannee</countyName>
+      <charReplacer>
+      <string-array>
+      	<string>l</string>
+      	<string>1</string>
+      </string-array>
+      <string-array>
+      	<string>O</string>
+      	<string>0</string>
+      </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>—</string>
+		  	<string>-</string>
+		  </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>[0-9]{7}[.][0-9]{4}[^0-9]+[0-9]+[.][0-9]{2}[^0-9]+[0-9]+[.][0-9]{2}[^0-9]+[0-9]+[.][0-9]{2}[^0-9]+[0-9]+[.][0-9]{2}</string>
+      </list>
+    </entry>
+    <entry>
+      <string>date</string>
+      <list>
+        <string>((Jan)|(Feb)|(Mar)|(Apr)|(May)|(Jun)|(Jul)|(Aug)|(Sep)|(Nov)|(Dec))[\W\D](\d|l){2}[\W\D]20[0-4][0-9]</string>
+      </list>
+    </entry>
+    <entry>
+      <string>total</string>
+      <list>
+        <string>([0-9]{1,}\.[0-9]{2}[^a-z0-9]*){3}[0-9]+[.][0-9]{2}</string>
+        <string>[0-9]+[.][0-9]{2}$</string>
+      </list>
+    </entry>
+    <entry>
+      <string>parcel</string>
+      <list>
+        <string>20[1-4][0-9][ ]+[0-9]{2,6}[.][0-9]{3}[ ][0-9]{11}[ ]</string>
+        <string>[ ][0-9]{11}[ ]$</string>
+        <string>[0-9]{11}</string>
+      </list>
+    </entry>
+    <entry>
+      <string>cert</string>
+      <list>
+        <string>20[1-4][0-9][ ]+[0-9]{2,6}[.][0-9]{3}[ ][0-9]{11}[ ]</string>
+        <string>$20[1-4][0-9][ ]+[0-9]{2,6}[.][0-9]{3}[ ]</string>
+        <string>[0-9]{2,6}[.][0-9]{3}</string>
+        <string>^[0-9]{2,6}[.]</string>
+        <string>[0-9]{2,6}</string>
+       </list>
+    </entry>
+        <entry>
+      <string>lien year</string>
+      <list>
+        <string>20[1-4][0-9][ ]+[0-9]{2,6}[.][0-9]{3}[ ][0-9]{11}[ ]</string>
+        <string>^20[1-4][0-9][ ]</string>
+        <string>20[1-4][0-9]</string>
+       </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string>doc total</string>
+  <list>
+  <string>Tota[1|l] Payable [0-9]+[.][0-9]{2}</string>
+  <string>[0-9]+[.][0-9]{2}</string>
+  </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>0</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation></rotation>
+  <imagemagick></imagemagick>
+</com.fig.classes.CountyClass>

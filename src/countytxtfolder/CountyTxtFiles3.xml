@@ -4,7 +4,7 @@
       <string>eagle</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/COXML/eagle2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/COXML/eagle2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -12,7 +12,7 @@
       <string>santarosa</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/santarosa2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/santarosa2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -20,7 +20,7 @@
       <string>volusia</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/volusia1new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/volusia1new_XML.xml</string>
           <string>flFiles/VOLUSIA_VOLUSIA_20161222203526_159283ee22492861_voucher.pdf.txt</string>
             <string>flFiles/VOLUSIA_VOLUSIA_20161230140043_1595008614ada3e9_voucher.pdf.txt</string>
               <string>flFiles/VOLUSIA_VOLUSIA_20161230140139_15950093d94f6857_voucher.pdf.txt</string>
@@ -31,7 +31,7 @@
       <string>fulton</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\GAXML\fulton2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles\GAXML\fulton2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -39,7 +39,7 @@
       <string>mohave</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/mohave2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/mohave2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -47,7 +47,7 @@
       <string>lake</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/lake2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/lake2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -55,7 +55,7 @@
       <string>polk</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/polk2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/polk2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -63,7 +63,7 @@
       <string>navajo</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/navajo2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/navajo2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -71,7 +71,7 @@
       <string>miami-dade</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/miamidade2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/miamidade2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -79,7 +79,7 @@
       <string>miamidade</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/miamidade2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/miamidade2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -87,7 +87,7 @@
       <string>hillsborough</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/hillsborough2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/hillsborough2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -95,7 +95,7 @@
       <string>hendry</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/hendry2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/hendry2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -103,7 +103,7 @@
       <string>palmbeach</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/palmbeachXML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/palmbeachXML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -111,7 +111,7 @@
       <string>palm beach</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/palmbeachXML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/palmbeachXML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -119,7 +119,7 @@
       <string>charlotte</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/charlotte2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/charlotte2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -127,7 +127,7 @@
       <string>stjohns</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/stjohns2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/stjohns2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -135,7 +135,7 @@
       <string>maricopa</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/dub/maricopa2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/dub/maricopa2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -143,7 +143,7 @@
       <string>monroe</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/monroe2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/monroe2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>  
@@ -151,7 +151,7 @@
       <string>floridabankruptcy</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/bankruptcynew_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/bankruptcynew_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -159,14 +159,14 @@
       <string>alachua</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/alachua2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/alachua2new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>    <entry>
       <string>duval</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\RefundXML\duvalnew_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles\RefundXML\duvalnew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -174,7 +174,7 @@
       <string>orange</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\RefundXML\orangenew_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles\RefundXML\orangenew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -182,7 +182,7 @@
       <string>broward</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles\RefundXML\browardnew_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles\RefundXML\browardnew_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -190,7 +190,7 @@
       <string>clay</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/clay2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/clay2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -198,7 +198,7 @@
       <string>orange</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace/parse-tda/XMLfiles/orange2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/orange2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>

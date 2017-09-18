@@ -550,7 +550,7 @@ def depView(depid):
     
     #get cc regex
     val = dict()
-    if depstate == 'NJ':
+    if depstate in 'NJ':
         regexmap = util.createRegexDict(mydir, "countytxtfolder/CountyTxtFiles_Nj.xml", cccounty)
         regexmap1 = util.createRegexDict(mydir, "countytxtfolder/CountyTxtFiles_Nj2.xml", cccounty)
         regexmap2 = util.createRegexDict(mydir, "countytxtfolder/CountyTxtFiles_Nj3.xml", cccounty)
@@ -558,9 +558,9 @@ def depView(depid):
         if regexmap is not None:
             val['main'] = regexmap
         if regexmap1 is not None:
-            val['clerk'] = regexmap1
+            val['backup'] = regexmap1
         if regexmap2 is not None:
-            val['backup'] = regexmap2
+            val['dub'] = regexmap2
         if regexmap1off is not None:
             val['one_offs'] = regexmap1off
     else:

@@ -1,0 +1,65 @@
+<com.fig.classes.CountyClass>
+  <countyName>asbury park (monmouth, nj)</countyName>
+<charReplacer>
+		  <string-array>
+		  	<string>$</string>
+		  	<string></string>
+		  </string-array>
+		  <string-array>
+		  	<string>,</string>
+		  	<string></string>
+		  </string-array>
+          <string-array>
+          <string>&#009;</string>
+          <string> </string>
+        </string-array>
+  </charReplacer>
+  <regexMap>
+        <entry>
+      <string>validLine</string>
+      <list>
+        <string>Block[^0-9][0-9]+([.][0-9]+)?[^0-9]Lot[^0-9][0-9]+([.][0-9]+)?[^0-9]</string>
+      </list>
+    </entry>
+        <entry>
+      <string>block</string>
+      <list>
+        <string>Block[^0-9][0-9]+([.][0-9]+)?[^0-9]Lot</string>
+        <string>[0-9]+([.][0-9]+)?</string>
+      </list>
+    </entry>
+        <entry>
+      <string>lot</string>
+      <list>
+        <string>Lot[^0-9][0-9]+([.][0-9]+)?[^0-9]</string>
+        <string>[0-9]+([.][0-9]+)?</string>
+      </list>
+    </entry>
+        <entry>
+      <string>qual</string>
+      <list>
+        <string>Lot[^0-9][0-9]+([.][0-9]+)?[^0-9][A-Z0-9]+</string>
+        <string>[A-Z0-9]+$</string>
+      </list>
+    </entry>
+        <entry>
+      <string>cert</string>
+      <list>
+        <string>Cert[a-z]+[^0-9][0-4][0-9][-][0-9]+</string>
+        <string>[0-4][0-9][-][0-9]+</string>
+      </list>
+    </entry>
+  </regexMap>
+    <regexMapDocLevel>
+  <entry>
+  <string></string>
+  <list>
+  <string></string>
+  </list>
+  </entry>
+  </regexMapDocLevel>
+  <multiline>1</multiline>
+  <double_valid_line></double_valid_line>
+  <rotation></rotation>
+  <imagemagick></imagemagick>
+</com.fig.classes.CountyClass>
