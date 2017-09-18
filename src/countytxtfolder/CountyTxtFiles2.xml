@@ -4,7 +4,7 @@
       <string>volusia</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/volusia_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/volusia_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -12,7 +12,7 @@
       <string>polk</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/polk_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/polk_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -20,7 +20,7 @@
       <string>hernando</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/hernando_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/hernando_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>  
@@ -28,7 +28,7 @@
       <string>charlotte</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/charlotte_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/charlotte_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>  
@@ -36,7 +36,7 @@
       <string>leon</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/leon_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/leon_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>  
@@ -44,7 +44,7 @@
       <string>pinellas</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/pinellas_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/pinellas_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry>   
@@ -52,7 +52,7 @@
       <string>okaloosa</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/okaloosa_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/okaloosa_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -60,7 +60,7 @@
       <string>marion</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/marion_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/marion_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -68,7 +68,7 @@
       <string>hillsborough</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/hillsborough_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/hillsborough_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -76,7 +76,7 @@
       <string>stlucie</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/stlucie_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/stlucie_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -84,7 +84,7 @@
       <string>lake</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/FLCXML/lake_c_new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/FLCXML/lake_c_new_XML.xml</string>
           </a>
       </java.util.Arrays_-ArrayList>
     </entry> 
@@ -92,7 +92,7 @@
       <string>broward</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/broward2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/broward2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>

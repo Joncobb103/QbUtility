@@ -4,7 +4,7 @@
       <string>newark (essex, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/newark (essex, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/newark (essex, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -12,7 +12,7 @@
       <string>linden (union, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/linden (union, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/linden (union, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -20,7 +20,7 @@
       <string>asbury park (monmouth, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/asbury park (monmouth, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/asbury park (monmouth, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -28,7 +28,7 @@
       <string>ocean (monmouth, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/ocean (monmouth, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/ocean (monmouth, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -36,7 +36,7 @@
       <string>camden city (camden, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/camden city (camden, nj)3new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/camden city (camden, nj)3new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -44,7 +44,7 @@
       <string>barnegat (ocean, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/barnegat (ocean, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/barnegat (ocean, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -52,7 +52,7 @@
       <string>bridgeton (cumberland, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/bridgeton (cumberland, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/bridgeton (cumberland, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
@@ -60,7 +60,7 @@
       <string>mantua (gloucester, nj)</string>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>C:/Users/Jonathan.Cobb/workspace1/DailyCheck/src/XMLfiles/NJXMLs/mantua (gloucester, nj)2new_XML.xml</string>
+          <string>/DailyCheck/src/XMLfiles/NJXMLs/mantua (gloucester, nj)2new_XML.xml</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </entry>
