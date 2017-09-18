@@ -17,7 +17,9 @@ import quickbase_auto_redeem as ar
 from regexConverter import RegexConverter as rgc
 
 app = Flask(__name__)
-mydir = os.path.dirname(__file__)
+#mydir = os.path.dirname(__file__)
+mydir = os.getcwd()
+print mydir
 
 dccontent = None
 diffcontent = None
@@ -1524,4 +1526,4 @@ if __name__=="__main__":
     setVars()
     sys.argv = ['username=bperlman@figadvisors.com','password=figtree77*']
     qb.authenticate_from_args()
-    app.run(debug=False)
+    app.run(debug=False,host="104.236.167.205")

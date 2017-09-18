@@ -35370,3 +35370,240 @@ Index: []
 
 2017-09-18 09:48:40,430 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:48:40] "GET /reports HTTP/1.1" 200 -
 2017-09-18 09:48:40,505 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 09:48:40] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 19:28:41,712 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-09-18 19:31:11,834 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:31:15,504 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 19:31:15] "GET / HTTP/1.1" 200 -
+2017-09-18 19:31:15,562 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 19:31:15] "GET /static/css/dailycheck.css HTTP/1.1" 200 -
+2017-09-18 19:31:15,566 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 19:31:15] "GET /static/images/FinchIcon_Reversed_Red.jpg HTTP/1.1" 200 -
+2017-09-18 19:31:15,576 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 19:31:15] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2017-09-18 19:31:15,759 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 19:31:15] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 19:44:46,025 - werkzeug - INFO -  * Running on http://104.236.167.205:5000/ (Press CTRL+C to quit)
+2017-09-18 19:45:20,963 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:45:24,547 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:45:24] "GET / HTTP/1.1" 200 -
+2017-09-18 19:45:24,650 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:45:24] "GET /static/css/dailycheck.css HTTP/1.1" 200 -
+2017-09-18 19:45:24,796 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:45:24] "GET /static/images/FinchIcon_Reversed_Red.jpg HTTP/1.1" 200 -
+2017-09-18 19:45:24,811 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:45:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2017-09-18 19:45:25,248 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:45:25] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 19:55:06,254 - werkzeug - INFO -  * Running on http://104.236.167.205:5000/ (Press CTRL+C to quit)
+2017-09-18 19:55:19,340 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:55:22,930 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:22] "GET / HTTP/1.1" 200 -
+2017-09-18 19:55:23,268 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:23] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 19:55:33,581 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:33] "GET /depView/28548/ HTTP/1.1" 200 -
+2017-09-18 19:55:34,169 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:34] "GET /pdfView/28548 HTTP/1.1" 200 -
+2017-09-18 19:55:40,481 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:55:44,031 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:44] "GET / HTTP/1.1" 200 -
+2017-09-18 19:55:48,404 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:55:48,469 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:48] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 19:55:49,561 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:49] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 19:55:50,849 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:55:50] "GET /njCalc/28559 HTTP/1.1" 200 -
+2017-09-18 19:56:51,789 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Deposits</name>
+<desc>Deposit detail from FIG&#039;s Bank Statement line items</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 19:56:55,393 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:56:55] "GET / HTTP/1.1" 200 -
+2017-09-18 19:57:02,775 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:57:02] "GET /depView/28520/ HTTP/1.1" 200 -
+2017-09-18 19:57:03,048 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 19:57:03] "GET /pdfView/28520 HTTP/1.1" 200 -
+2017-09-18 20:26:16,960 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:16] "POST /DeletePid HTTP/1.1" 302 -
+2017-09-18 20:26:18,831 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 20:26:18,862 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:18] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 20:26:19,965 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:19] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 20:26:22,908 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:22] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 20:26:24,632 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 20:26:24,653 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:24] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 20:26:25,777 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:26:25] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 20:30:58,565 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:30:58] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 20:31:00,321 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 20:31:02,240 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:31:02] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 20:31:03,380 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:31:03] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 20:42:39,444 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:42:39] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 20:42:41,294 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 20:42:42,337 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:42:42] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 20:42:43,615 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 20:42:43] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 21:08:56,184 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 21:08:57,407 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 21:08:57] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 21:08:58,540 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 21:08:58] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 21:09:00,429 - werkzeug - INFO - 50.235.237.50 - - [18/Sep/2017 21:09:00] "GET /njCalc/28559 HTTP/1.1" 200 -
