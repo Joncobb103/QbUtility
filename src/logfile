@@ -35581,3 +35581,47 @@ Index: []
 
 2017-09-18 16:51:07,723 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:51:07] "GET /depView/28559/ HTTP/1.1" 200 -
 2017-09-18 16:51:09,496 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:51:09] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 16:56:21,690 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-09-18 16:56:34,911 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 16:56:35,944 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:56:35] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 16:56:37,187 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:56:37] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 16:56:37,457 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:56:37] "GET /static/images/fig-logo.jpg HTTP/1.1" 200 -
+2017-09-18 16:57:26,417 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:57:26] "POST /CreatePidSp HTTP/1.1" 302 -
+2017-09-18 16:57:28,482 - qbapi.qbapi - WARNING - <?xml version="1.0" ?>
+<qdbapi>
+	<action>API_DoQuery</action>
+	<errcode>0</errcode>
+	<errtext>No error</errtext>
+<dbinfo>
+<name>Districts</name>
+<desc>Table of unique districts (county/muni) in which FIG operates its tax lien portfolio</desc>
+</dbinfo>
+<variables>
+<access_token>4ffb982a-a2d6-4349-b399-2dfec8ef6b24</access_token>
+<app_dbid_>bk2q3thtq</app_dbid_>
+<root_server_url>http://35.185.88.80/</root_server_url>
+</variables>
+<chdbids>
+</chdbids>
+</qdbapi>
+
+2017-09-18 16:57:29,397 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:57:29] "GET /depView/28559/ HTTP/1.1" 200 -
+2017-09-18 16:57:30,496 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:57:30] "GET /pdfView/28559 HTTP/1.1" 200 -
+2017-09-18 16:57:31,571 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2017 16:57:31] "GET /njCalc/28559 HTTP/1.1" 200 -
