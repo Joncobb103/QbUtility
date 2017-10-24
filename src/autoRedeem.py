@@ -6,6 +6,7 @@ Created on Apr 19, 2017
 import os
 import sys
 from Utils import Utils
+from Sql import Sql
 
 class CreatePids:
     util = None
@@ -95,3 +96,25 @@ class CreateDocv:
         command = batchf+' "'+param1+'" "'+param2+'" "'+\
         param3+'" "'+param4+'" "'+param5+'" "'+param6+'"'
         os.system(command)
+    
+    def InsertAbbyOcr(self,url,uid,password,db,pdfpath,depid):
+        mydir = os.path.dirname(__file__)
+        folderpath = os.path.join(mydir,'temptxt/')
+        pdfpathnew = pdfpath.replace(folderpath,'')
+        command ='sh send_to_abbyy.sh "'+folderpath+'" "'+pdfpathnew.replace(".pdf","")+'"'
+        os.system(command)
+        ocr_text = self.util.readFile(mydir, pdfpath.replace(".pdf",".txt"))
+        os.remove(folderpath+pdfpathnew.replace(".pdf",".txt"))
+        sqlrun = Sql(url, uid, password, db)
+        table = 'developer.ocr_text_local'
+        checking = 'select * from '+table+' where deposit_id = '+depid
+        try:
+            ocr_text = ocr_text.replace("'","")
+            ocr_text = ocr_text.replace('"',"")
+            if sqlrun.findOne(checking) is not None:
+                sqlrun.update(table, ['ocr_text'], ["'"+ocr_text+"'"], 'deposit_id', depid)
+            else:
+                values = [depid,"'"+ocr_text+"'"]
+                sqlrun.insert(table, values)
+        except:
+            print('Error updating ocr')

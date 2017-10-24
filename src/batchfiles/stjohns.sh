@@ -1,1 +1,1 @@
-java -jar stjohnfile.jar "CountyTxtFiles=C:\Users\Jonathan.Cobb\workspace1\DailyCheck27\src\countytxtfolder\CountyTxtFiles.xml" "folder=%1"
+java -jar stjohnfile.jar "CountyTxtFiles=C:\Users\Jonathan.Cobb\workspace1\DailyCheck27\src\countytxtfolder\CountyTxtFiles.xml" "folder=$1"

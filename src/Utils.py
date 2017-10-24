@@ -143,7 +143,10 @@ class Utils:
         command += ' '+newccpath+' '+split_key+' '+countyName+' '+block+' '+' '+lot+' '+qual+' '+\
         validLine+' '+cert+' '+parcel+' '+lien_year+' '+tax_year+' '+total+' '+mult
         self.writeFile(mydir, "temp"+self.bat_or_sh, command)
-        os.system("temp"+self.bat_or_sh)
+        if self.bat_or_sh == '.sh':
+            os.system("bash temp"+self.bat_or_sh)
+        else:
+            os.system("temp"+self.bat_or_sh)
         
     def addCcToCtf(self,cc_path,ctf_path):
         mydir = os.path.dirname(__file__)

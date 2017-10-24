@@ -1,3 +1,2 @@
-select syscountyname, district_full_name, state, deposit_id from developer.docv
-where deposit_date = '(REPLACE DATE)'
-and state in ('(REPLACE STATE)');
+select syscountyname, district_full_name, state, id as deposit_id from billy.depvalld
+and district_full_name ilike '%(REPLACE DFN)%';

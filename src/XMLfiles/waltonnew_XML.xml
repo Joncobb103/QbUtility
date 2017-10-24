@@ -27,7 +27,7 @@
         <entry>
       <string>validLine</string>
       <list>
-        <string>[0-9]{2}[^0-9][0-9]{8}[^0-9][0-1][0-9][/][0-3][0-9][/]20[0-4][0-9].+[0-9]+[.][0-9]{2}</string>
+        <string>[0-9]{2}[^0-9][0-9]{8}[^0-9A-z]+[0-1][0-9][/][0-3][0-9][/]20[0-4][0-9].+[0-9]+[.][0-9]{2}</string>
       </list>
     </entry>
     <entry>
@@ -39,7 +39,7 @@
     <entry>
       <string>total</string>
       <list>
-        <string>([^0-9][0-9]{1,}[^0-9][0-9]{2}){3}[^0-9][0-9]{1,}[^0-9][0-9]{2}</string>
+        <string>([^0-9A-z]+[0-9]{1,}[^0-9][0-9]{2}){3}[^0-9A-z]+[0-9]{1,}[^0-9][0-9]{2}</string>
         <string>[0-9]{1,}[^0-9][0-9]{2}$</string>
       </list>
     </entry>
@@ -62,8 +62,9 @@
         <entry>
       <string>lien year</string>
       <list>
-        <string>[0-9]{2,}[/]20[0-9]{2}[ ][0-9]{3,10}[ ]</string>
+        <string>[0-9]{2,}[/]20[0-9]{2}[^0-9A-z]+[0-9]{3,10}[^0-9A-z]</string>
         <string>[/]20[0-9]{2}</string>
+        <string>^[/]20[0-9]{2}</string>
          <string>20[0-9]{2}</string>
       </list>
     </entry>
@@ -84,7 +85,7 @@
       </list>
     </entry>
   </regexMapDocLevel>
-  <multiline>-2</multiline>
+  <multiline>1</multiline>
   <double_valid_line></double_valid_line>
   <rotation></rotation>
   <imagemagick></imagemagick>

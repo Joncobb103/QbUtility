@@ -1,1 +1,1 @@
-java -jar InsertOcr.jar %1 %2 %3 %4 "tessDataPath=./tessdata" %5 %6
+java -jar InsertOcr.jar $1 $2 $3 $4 "tessDataPath=/root/qbpython/DailyCheck/src/tessdata/" $5 $6

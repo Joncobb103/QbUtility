@@ -1,0 +1,152 @@
+.loginform input[type=email],.loginform input[type=password]{
+    border-radius: 80px;
+    padding:5px;
+    width: 12cm;
+    height:1cm;
+    color:black;
+    font-size:large;
+}
+.loginform h1{
+    text-shadow:2px 2px 2px black;
+    font-size:xx-large;
+    color:white;
+    text-shadow:1px 1px DeepSkyBlue;
+    text-align:center;
+}
+.loginform{
+    position:absolute;
+    top: 3cm;
+    right:41%;
+    padding:5px;
+    width:12cm;
+    border:3px ridge transparent;
+    background:white;
+    padding-left:2cm;
+    padding-right:2cm;
+    padding-bottom:2cm;
+    text-align:center;
+    z-index:9999;
+    background-color:transparent;
+    /*box-shadow: 5px 5px 5px silver;*/
+}
+ .figimg{
+    position:absolute;
+    top: 1cm;
+    right:30%;
+    opacity:0.7;
+    height: 110%;
+    z-index:-9999;
+    float:right;
+}
+.loginform input[type=submit]{
+    padding:5px;
+    position: relative;
+    right:10%;
+    font-size:medium;
+    background-color: white;;
+    color: DeepSkyBlue;
+    border-radius:80px;
+    border:none;
+    border: 1px solid DeepSkyBlue;
+}
+.loginform font{
+    font-size:large;
+    color:white;
+}
+.header1 img{
+    padding-left:15px;
+    height:63px;
+    border-radius: 100px;
+}
+.header li font{
+    font-size:xx-large;
+}
+.header1{
+    width:100vw;
+    list-style-type:none;
+    background-color:black;
+    margin-top: -9px;
+    margin: -7px;
+    padding: 0px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px silver;
+    border-top: 3px ridge silver;
+    border-bottom: 6px solid silver;
+    text-align:center;
+}
+.drop li{
+    padding-top:20px;
+    display:inline-block;
+}
+.drop-cont{
+    display:none;
+}
+.drop-cont a{
+    display:block;
+    padding: 24px 22px;
+    z-index: 1;
+}
+.header1 a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:large;
+}
+
+.header1 li a:hover, .drop:hover .dropbtn {
+    background-color: red;
+}
+
+.drop-cont {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop-cont a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-cont {
+    display: block;
+}
+
+#state{
+    padding:4px;
+}
+.header1 li{
+    float:right;
+    margin: 0;
+}
+.header1 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 22px;
+    background-color: DeepSkyBlue;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-decoration: none;
+}
+.header1 li a:hover{
+    background-color:red;
+}
+.header1 h1{
+    color:white;
+    padding-left:1cm;
+    font-style:italic;
+    font-size:150%;
+    text-shadow:1px 1px DeepSkyBlue;
+    padding-right: 15px;
+}

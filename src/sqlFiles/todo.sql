@@ -18,7 +18,7 @@ f2 as
 	else 'Yes'
 	end as ocr_text
 	, o.district_full_name, o.syscountyname, o.id, o.state,o.deposit_amount,o.deposit_date, 
-	case when cp.pid_status is null then 'No pids generated' else 'has_pids' end as pid_status ,d2.diff,
+	case when cp.pid_status is null then 'None' else 'has_pids' end as pid_status ,d2.diff,
 	case when r.ocr_text ilike '%clerk%' then 'County Clerk'
 	else 'Tax collector' 
 	end

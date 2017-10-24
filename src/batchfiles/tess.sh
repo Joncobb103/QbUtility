@@ -1,1 +1,1 @@
-c:/Tesseract-OCR/tesseract "%1" "%2"
+c:/Tesseract-OCR/tesseract "$1" "$2"

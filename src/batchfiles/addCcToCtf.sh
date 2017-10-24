@@ -1,1 +1,1 @@
-java -jar addCcToCtf.jar %1 %2
+java -jar addCcToCtf.jar $1 $2

@@ -1,0 +1,21 @@
+#!/user/bin/expect
+# ship the pdf to the abbyy server
+# [lindex $argv 0] has folder of source pdf
+# [lindex $argv 1] has filename w/o the .pdf extention
+spawn scp [lindex $argv 0]/[lindex $argv 1].pdf root@208.68.37.79:/root
+expect "assword:"
+send "bliverisk\r"
+interact 
+
+# have the abbyy server run its thing
+spawn ssh  -t root@208.68.37.79 "sh abbyy_hello.sh [lindex $argv 1]"
+expect "assword:"
+send "bliverisk\r"
+interact 
+
+# ship the text file back home
+spawn scp root@208.68.37.79:/root/[lindex $argv 1].txt [lindex $argv 0]
+expect "assword:"
+send "bliverisk\r"
+interact 
+

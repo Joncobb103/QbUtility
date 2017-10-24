@@ -1,1 +1,1 @@
-java -jar PdfToImg.jar "%1"
+java -jar PdfToImg.jar "$1"

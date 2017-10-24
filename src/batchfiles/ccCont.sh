@@ -1,1 +1,1 @@
-java -jar ccCont.jar %1 %2 
+java -jar ccCont.jar "$1" "$2" 

@@ -80,7 +80,7 @@ class Sql:
         for value in values:
             if value is None or value == '':
                 value = "Null"
-            valString += value+","
+            valString += str(value)+","
         valString = valString[:-1]
         query = "Insert into "+table+" ("+colString+\
         ") values ("+valString+");"
